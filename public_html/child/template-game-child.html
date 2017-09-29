@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="background-color: #2d2d2d">
+    <head>
+        <title>GRID 2: Transformer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bulma.css">
+        <link rel="stylesheet" href="../css/style_2.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="stylesheet" href="../css/child-game-style.css">
+        <link rel="stylesheet" href="../css/login.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="../icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+        <link rel="manifest" href="../icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">        
+
+
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+
+
+
+        <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="../js/js01.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="columns menu">
+                <div class="column tab-menu">
+                    <nav class="nav menu-top">
+                        <div class="nav-left menu-list-child">
+                            <a href="../index.html" class="nav-item wow bounceIn"><img src="../images/logo.png">
+                            </a>
+                        </div>
+                        <a class="hideShowMenu">
+                            <label for="menu-toggle" class="nav-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </a>
+                        <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+                        <div class="nav-right nav-menu">
+                            <a href="../index.html" class="nav-item menu-list-child" >
+                                Home
+                            </a>
+                            <a href="../news.html" class="nav-item menu-list-child" > 
+                                News
+                            </a>
+                            <a href="../shop.html" class="nav-item menu-list-child" style="color:#00cc09; border-bottom: 5px #00cc09 solid;">
+                                Shop
+                            </a>
+                            <a href="../playstation.html" class="nav-item menu-list-child">
+                                PlayStation
+                            </a>
+                            <a href="../pc.html" class="nav-item menu-list-child">
+                                PC
+                            </a>
+                            <a href="../xbox.html" class="nav-item menu-list-child" >
+                                Xbox
+                            </a>
+                            <a href="../mobi.html" class="nav-item menu-list-child" >
+                                Mobile
+                            </a>
+                            <a href="../about.html" class="nav-item menu-list-child"    >
+                                About
+                            </a>
+                            <a class="nav-item"  id="search">
+                                <span class="icon is-small">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </a>
+                            <input class="nav-item input-text" id="input-text" type="text" name="field1" placeholder="Search Tab" style="display: none;"/>
+                    
+
+                            <a class="nav-item"  id="times" style="display: none;">
+                                <span class="icon is-small">
+                                    <i class="fa fa-times" ></i>
+                                </span>
+                            </a>
+                            <span class="nav-item">
+                                <a  class="button is-primary button-login">
+                                    <span>LOGIN</span>
+                                </a>
+                            </span>
+                            <p class="nav-item line" style="margin: 1.25em 0 1.25em 1em; border-left: 1px #7a7a7a solid;" >
+                            </p>
+                            <p class="nav-item">
+                                <a class="cart line">
+                                    <span class="icon is-medium">
+                                        <i class="fa fa-shopping-cart" ></i>
+                                    </span>
+                                    <span class="buy-number" style="display: none; color: white; background: red; border-radius: 10px; padding: 2px 8px 2px 8px; margin: 0 0 0 -15px ;">0</span>
+                                </a>
+                            </p>
+                        </div>
+                    </nav>
+                    <div class="login-form">
+                        <div class="form">
+                            <h1 style="height: 40px;"><span class="icon is-small exit-icon" style="float:right ; position: block"><i class="fa fa-times" style="left:10px; color: #efefef"></i></span></h1>
+                            <ul class="tab-group">
+                                <li class="tab active"><a href="#signup" class="a-login">Sign Up</a></li>
+                                <li class="tab"><a href="#login" class="a-login">Log In</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="signup">   
+                                    <h1 class="title-text">Sign Up for Free</h1>
+                                    <form action="/" method="post">
+                                        <div class="top-row">
+                                            <div class="field-wrap">
+                                                <label>
+                                                    First Name<span class="req">*</span>
+                                                </label>
+                                                <input  class="input-text" type="text" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Last Name<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="text" required autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Set A Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <button type="submit" class="buttonX button-block">Get Started</button>
+                                        <button type="submit" class="exit buttonX button-block">Exit</button>
+                                    </form>
+                                </div>
+                                <div id="login">   
+                                    <h1 class="title-text">Welcome Back!</h1>
+                                    <form action="/" method="post">
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+                                        <button class="buttonX button-block"/>Log In</button>
+                                    </form>
+                                </div>
+                            </div><!-- tab-content -->
+                        </div>
+                    </div>
+                    <script src="../js/login.js"></script>
+                </div>
+            </div>
+
+        </header>
+    <content>
+        <div class="column main-content">
+            <div class="columns logo">
+                <div class="column"></div>
+                <div class="column wow flipInX">
+                    <figure class="image">
+                        <img src="../img/about-logo2.png" alt="Image">
+                    </figure>
+                </div>
+                <div class="column"></div>
+            </div>
+            <div class="columns">
+                <div class="column is-3 tab-left is-hidden-mobile">
+                    <div class="feattured wow bounceInLeft">
+                        <h1>Featured Games</h1>
+                    </div>
+                    <div class="column featured-game wow bounceInLeft" data-wow-delay="0.1s">
+                        <div class="columns">
+                            <div class="column is-5">
+                                <figure class="image">
+                                    <img src="../img/mn9.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <h1>GRID 2: Transformer</h1>
+                                <h2>$34.99</h2>
+                                <a class="button is-success is-medium buy add-to-cart">Add To Cart</a>
+                            </div>
+                        </div>
+                        <hr style="background-color:#4f4f4f">
+                    </div>
+                    <div class="column featured-game wow bounceInLeft" data-wow-delay="0.2s">
+                        <div class="columns">
+                            <div class="column is-5">
+                                <figure class="image">
+                                    <img src="../img/mn5.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <h1>HALO 2: Ozon</h1>
+                                <h2>$14.99</h2>
+                                <a class="button is-success is-medium buy add-to-cart">Add To Cart</a>
+                            </div>
+                        </div>
+                        <hr style="background-color:#4f4f4f">
+                    </div>
+                    <div class="column featured-game wow bounceInLeft" data-wow-delay="0.3s">
+                        <div class="columns">
+                            <div class="column is-5">
+                                <figure class="image">
+                                    <img src="../img/mn10.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                <h1>No Man's Sky</h1>
+                                <h2>$29.99</h2>
+                                <a class="button is-success is-medium buy add-to-cart">Add To Cart</a>
+                            </div>
+                        </div>
+                        <hr style="background-color:#4f4f4f">
+                    </div>
+                    <div class="welcome wow bounceInLeft">
+                        <h1>Welcome</h1>
+                    </div>
+                    <div class="column welcome-text wow bounceInLeft" data-wow-delay="0.1s">
+
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img src="../img/avatar.png" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>Doge</strong> <small>@dogeee</small> <small>31m</small>
+                                            <br>
+                                            Hi Friend, Welcome to Gshop. This is our website, happy. I love U.
+                                        </p>
+                                    </div>
+                                    <nav class="level is-mobile">
+                                        <div class="level-left">
+                                            <a class="level-item">
+                                                <span class="icon is-small"><i class="fa fa-reply"></i></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="icon is-small"><i class="fa fa-retweet"></i></span>
+                                            </a>
+                                            <a class="level-item">
+                                                <span class="icon is-small"><i class="fa fa-heart"></i></span>
+                                            </a>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="column tab-right">
+                    <div class="column">
+                        <div class="columns">
+                            <div class="column tab-image wow fadeIn" data-wow-delay="0.2s">
+                                <figure class="image">
+                                    <img src="../img/mn9.jpg" alt="Image">
+                                </figure>
+                            </div>
+                            <div class="column tab-info wow bounceInRight">
+                                <h1 class="title">Gird II: Transformer</h1>
+                                <h2 class="subtitle"><br>Ready to own the streets? Get behind the wheel of iconic cars and floor it through Ventura Bay, a sprawling urban playground... </h2>
+                                <h4>Share to:</h4>
+                                <span class="icon is-small">
+                                    <i class="fa fa-facebook-official"></i>
+                                </span>
+                                <span class="icon is-small">
+                                    <i class="fa fa-envelope "></i>
+                                </span>
+                                <span class="icon is-small">
+                                    <i class="fa fa-twitter-square"></i>
+                                </span>
+                                <span class="icon is-small">
+                                    <i class="fa fa-instagram"></i>
+                                </span>
+                                <span class="icon is-small">
+                                    <i class="fa fa-pinterest-square"></i>
+                                </span>
+                                <span class="icon is-small">
+                                    <i class="fa fa-medium"></i>
+                                </span>
+                                <br><br>
+                                <h3>Vendor:<span style="font-weight: 600"> Vendor 2</span> </h3>
+                                <h4>Type:<span style="font-weight: 600"> Digital Copy</span></h4>
+                                <br/>
+                                <h5>Tag:<span style="color: #00cc09; font-weight: 500"> need-for-speed, racing</span></h5>
+                                <br/>
+                                <hr/>
+                                <br/>
+                                <h1>$139.99</h1>
+                                <h6>$169.99</h6>
+                                <a class="button is-success is-medium buy">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column in-game">
+                        <div class="column vid-in-game wow bounceInRight">
+                            <h1 class="title ">Game Trailer</h1>
+                            <video width="100%" controls>
+                                <source src="../video/trailer.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="column image-in-game wow bounceInRight is-hidden-mobile" >
+                            <h1 class="title ">Ingame</h1>
+                            <div id="sidle">
+                                <img src="elephant-2x.jpg" alt>
+                                <img src="orangutan-2x.jpg" alt>
+                                <img src="baboon-2x.jpg" alt>
+                                <img src="parrot-2x.jpg" alt>
+                            </div>
+
+                            <style type="text/css">
+                                #sidle.slide {
+                                    position: relative;
+                                    width: 50%;
+                                }
+                                #sidle.slide img {
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                #sidle.slide img:hover {
+                                    cursor: pointer;
+                                }
+                                #sidle.slide .full:hover {
+                                    cursor: default ;
+                                }
+                                #sidle:not(.slide) {
+                                    width: 98%;
+                                    margin: 0 auto;
+                                }
+                                #sidle:not(.slide) img {
+                                    width: 48%;
+                                    display: inline-block;  
+                                }
+                                @media all and (max-width: 600px) {
+                                    body {
+                                        margin: 0;
+                                    }
+                                    #sidle.slide {
+                                        width: 100%;
+                                    }
+                                    #sidle.slide img {
+                                        position: static;
+                                        width: 100% !important;
+                                        display: inline-block; 
+                                        -webkit-clip-path: none !important;
+                                    } 
+                                }
+                            </style>
+                            <script type="text/javascript">
+            const imageArea = document.getElementById("sidle"),
+                    images = imageArea.getElementsByTagName("img");
+
+            if (images.length > 1) {
+                for (var i = 0; i < images.length; i++) {
+                    let topEdge = ((100 / images.length) * i) + 1,
+                            bottomEdge = (topEdge + (100 / images.length)) - 1;
+                    images[i].style.clipPath = `polygon(0% ${topEdge}%, 100% ${topEdge}%, 100% ${bottomEdge}%, 0% ${bottomEdge}%)`;
+                }
+                imageArea.classList.add("slide");
+
+                function slide(imgTarget, direction) {
+                    let slidy = imgTarget.animate([
+                        {transform: 'translateX(0%)', clipPath: imgTarget.style.clipPath},
+                        {transform: 'translateX(101%)', clipPath: imgTarget.style.clipPath},
+                        {transform: 'translateX(101%)', clipPath: imgTarget.style.clipPath},
+                        {transform: 'translateX(101%)', clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)'}
+                    ], {
+                        duration: 666,
+                        easing: 'linear',
+                        fill: 'forwards',
+                        direction: direction
+                    });
+                    imgTarget.classList.toggle("full");
+                }
+                imageArea.addEventListener("click", function (e) {
+                    let fullImage = document.querySelector(".full");
+                    if (fullImage == null) {
+                        slide(e.target, "normal");
+                    } else {
+                        slide(fullImage, "reverse");
+                        if (e.target !== fullImage) {
+                            setTimeout(function () {
+                                slide(e.target, "normal");
+                            }, 200);
+                        }
+                    }
+                })
+            }
+                            </script>
+                        </div>
+                    </div>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="columns top-footer">
+            <div class="column tabs is-centered">
+                <ul>
+                    <li><a href="../news.html">GSHOP BLOG</a></li>
+                    <li><a href="../about.html">OUR TEAM</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a>PAY</a></li>
+                    <li><a href="support.html">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="columns mid-footer">
+            <div class="column ">
+                <div class="column tabs is-centered wow bounceInUp">
+                    <ul>
+                        <li><a><span class="icon is-large"><i class="fa fa-linkedin-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-youtube-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-facebook-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-twitter-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-steam-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-google-plus-square"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h1 class="title is-2">You never walk alone.</h1>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h2 class="subtitle">We will always beside you.</h2>
+        </div>
+        <div class="columns tabs address-footer is-centered">
+            <ul>
+                <li><a><span class="icon is-medium"><i class="fa fa-envelope"></i></span>
+                        <p style="color:#00cc09; font-weight:500">Gshopgaming@gmail.com</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-phone"></i></span>
+                        <p style="color:#dbdbdb ; font-weight:500">(+84) 162 971 9292</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-building"></i></span>
+                        <p style="color:#dbdbdb; font-weight:500">1 Hoang Dao Thuy, Ha Noi</p></a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns down-footer is-centered">
+            <h1 class="title is-6">Copyright 2017 TeamHCL. All Rights Reserved.</h1>
+        </div>
+    </footer>
+</body>
+</html>
+

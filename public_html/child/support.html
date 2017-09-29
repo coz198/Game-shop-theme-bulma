@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="background-color: #2d2d2d">
+    <head>
+        <title>Gshop Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bulma.css">
+        <link rel="stylesheet" href="../css/style_2.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="stylesheet" href="../css/support_style.css">
+        <link rel="stylesheet" href="../css/login.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="../icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+        <link rel="manifest" href="../icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">        
+
+
+        <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+
+
+        <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="../js/js01.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="columns menu">
+                <div class="column tab-menu">
+                    <nav class="nav menu-top">
+                        <div class="nav-left menu-list-child">
+                            <a href="../index.html" class="nav-item wow bounceIn"><img src="../images/logo.png">
+                            </a>
+                        </div>
+                        <a class="hideShowMenu">
+                            <label for="menu-toggle" class="nav-toggle" >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </a>
+                        <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+                        <div class="nav-right nav-menu">
+                            <a href="../index.html" class="nav-item menu-list-child" >
+                                Home
+                            </a>
+                            <a href="../news.html" class="nav-item menu-list-child" > 
+                                News
+                            </a>
+                            <a href="../shop.html" class="nav-item menu-list-child" >
+                                Shop
+                            </a>
+                            <a href="../playstation.html" class="nav-item menu-list-child">
+                                PlayStation
+                            </a>
+                            <a href="../pc.html" class="nav-item menu-list-child">
+                                PC
+                            </a>
+                            <a href="../xbox.html" class="nav-item menu-list-child" >
+                                Xbox
+                            </a>
+                            <a href="../mobi.html" class="nav-item menu-list-child" >
+                                Mobile
+                            </a>
+                            <a href="../about.html" class="nav-item menu-list-child" style="color:#00cc09; border-bottom: 5px #00cc09 solid;" >
+                                About
+                            </a>
+                            <a class="nav-item"  id="search">
+                                <span class="icon is-small">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </a>
+                            <input class="nav-item" id="input-text" type="text" name="field1" placeholder="Search Tab" style="display: none;"/>
+
+
+                            <a class="nav-item"  id="times" style="display: none;">
+                                <span class="icon is-small">
+                                    <i class="fa fa-times" ></i>
+                                </span>
+                            </a>
+                            <span class="nav-item">
+                                <a  class="button is-primary button-login">
+                                    <span>LOGIN</span>
+                                </a>
+                            </span>
+                            <p class="nav-item line" style="margin: 1.25em 0 1.25em 1em; border-left: 1px #7a7a7a solid;" >
+                            </p>
+                            <p class="nav-item">
+                                <a class="cart line">
+                                    <span class="icon is-medium">
+                                        <i class="fa fa-shopping-cart" ></i>
+                                    </span>
+                                    <span class="buy-number" style="display: none; color: white; background: red; border-radius: 10px; padding: 2px 8px 2px 8px; margin: 0 0 0 -15px ;">0</span>
+                                </a>
+                            </p>
+                        </div>
+                    </nav>
+                    <div class="login-form">
+                        <div class="form">
+                            <h1 style="height: 40px;"><span class="icon is-small exit-icon" style="float:right ; position: block"><i class="fa fa-times" style="left:10px; color: #efefef"></i></span></h1>
+                            <ul class="tab-group">
+                                <li class="tab active"><a href="#signup" class="a-login">Sign Up</a></li>
+                                <li class="tab"><a href="#login" class="a-login">Log In</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="signup">   
+                                    <h1 class="title-text">Sign Up for Free</h1>
+                                    <form action="/" method="post">
+                                        <div class="top-row">
+                                            <div class="field-wrap">
+                                                <label>
+                                                    First Name<span class="req">*</span>
+                                                </label>
+                                                <input  class="input-text" type="text" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Last Name<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="text" required autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Set A Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <button type="submit" class="buttonX button-block">Get Started</button>
+                                        <button type="submit" class="exit buttonX button-block">Exit</button>
+                                    </form>
+                                </div>
+                                <div id="login">   
+                                    <h1 class="title-text">Welcome Back!</h1>
+                                    <form action="/" method="post">
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+                                        <button class="buttonX button-block"/>Log In</button>
+                                    </form>
+                                </div>
+                            </div><!-- tab-content -->
+                        </div>
+                    </div>
+                    <script src="../js/login.js"></script>
+                </div>
+            </div>
+        </header>
+    <content>
+        <div class="column body-faqs">
+            <div class="faqs-image" style="padding: 0;">
+                <figure class="image img-banner">
+                    <div class="text-banner  wow bounceInUp">
+                        <h1>Have a Question?</h1>
+                        <h2>If you have any question you can ask below or enter what you are looking for!</h2>
+                        <div class="column search-form">
+                            <input type="text" class="search-input" placeholder="Type your search terms here" title="* Please enter a search term!" >
+                            <input type="button" class="search-button" value="Search">
+                        </div>
+                    </div>
+                    <img src="../images/faqs.jpg">
+                </figure>
+            </div>
+            <div class="columns question-tab">
+                <div class="column question-tab-child wow bounceInLeft">
+                    <h1>Featured Questions</h1>
+                    <div class="questions">
+                        <div class="question">
+                            <details>
+                                <summary>Can I make changes to my pre-order?</summary>
+                                <p>To change your pre-order payment or delivery details, without cancelling your order, follow the steps below.</p>
+                                <p>1. Select <b>‘My Account‘</b></p>
+                                <p>2. Select <b>‘My Orders‘</b></p>
+                                <p>3. Find the order and click <b>‘Order Details‘</b></p>
+                                <p>4. Click <b>‘Change Payment details‘</b> or <b>‘Change delivery address‘</b><p>
+                                <p>5. Amend details</p>
+                                <p> 6. Click <b>‘Update‘</b></p>
+                                <p> If you do not have a GAME account please contact our Customer Service team.</p>
+                                <p> Please Note: The product(s) on a pre-order cannot be changed once it has been submitted, however, you are able to place a new order through the website with the correct product(s).</p>
+                            </details>
+                            <p>1 May, 2016 by Lynn109<p>
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>How do I cancel my order?</summary>
+                                <p>You can cancel your order before preparation of dispatch has begun. Just log in to ‘My Account’, and follow the steps below;</p>
+                                <p>1. Click <b>“My Orders” </b></p>
+                                <p>2. Locate the order you would like to cancel</p>
+                                <p>3. Click  <b>“Order details”</b></p>
+                                <p>Beneath the product, you would like to cancel, click “Cancel This Product” (BEWARE: Clicking this button will immediately cancel your order)<p>
+                                <p><b>Please note:</b> once your order has been prepped for dispatch, it is not possible to cancel using this process, however, you can still return it within 30 days for a refund or exchange, as long as the seal remains unbroken – Click here for more details on our goodwill 30-day return policy.</p>
+                                <p>You also have you have the right to cancel your order for any item bought on this website for a full refund under the Consumer Contracts (information, Cancellation and Additional Charge)s Regulations. Click here for more details on how to exercise this right of cancellation.
+                                    If your order was made as a guest you will need to contact our Customer Service Team to cancel your order.</p>
+                            </details>
+                            <p>3 May, 2016 by Hz3<p>
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>Where is my order?</summary>
+                                <p>If your order has been shipped using Royal Mail untracked service, please allow 5 working days (not including Sundays, National and Bank holidays) from dispatch for UK deliveries and 21 days for international orders.</p>
+                                <p>For orders shipped via our tracked services, Hermes and DPD, you can use the link below that applies to track your order.</p>
+                                <p>Orders worth £75-£149.99 – <b>Hermes</b></p>
+                                <p>Orders worth over £150, or with upgraded delivery – <b>DPD</b></p>
+                                <p></p>
+                                <p></p>
+                            </details>
+                            <p>21 April, 2017 by Alex<p>
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>Can I view my order history?</summary>
+                                <p>To view your order history, log in to your online account and select ‘My Orders’ under ‘My Account’. If your order was made as a guest, you’ll need to contact our Customer Service department for more info.</p>
+                            </details>
+                            <p>3 April, 2017 by Zed_Knight<p>
+                        </div>
+                        <div class="question">    
+                            <details>
+                                <summary>What is the status of my order?</summary>
+                                <p>To check your order status, log in to <b>‘My Account’</b> and click <b>‘My Orders’</b>.</p>
+                            </details>
+                            <p>30 April, 2015 by Zak<p>
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>Can I make changes to my pre-order?</summary>
+                                <p>To change your pre-order payment or delivery details, without cancelling your order, follow the steps below.</p>
+                                <p>1. Select <b>‘My Account‘</b></p>
+                                <p>2. Select <b>‘My Orders‘</b></p>
+                                <p>3. Find the order and click <b>‘Order Details‘</b></p>
+                                <p>4. Click <b>‘Change Payment details‘</b> or <b>‘Change delivery address‘</b><p>
+                                <p>5. Amend details</p>
+                                <p> 6. Click <b>‘Update‘</b></p>
+                                <p> If you do not have a GAME account please contact our Customer Service team.</p>
+                                <p> Please Note: The product(s) on a pre-order cannot be changed once it has been submitted, however, you are able to place a new order through the website with the correct product(s).</p>
+                            </details>  
+                            <p>9 May, 2016 by Huu_Huan<p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="column question-tab-child wow bounceInLeft">
+                    <h1>Latest Questions</h1>
+                    <div class="questions">
+                        <div class="question">
+                            <details>
+                                <summary>How do I track my order?</summary>
+                                <p>Orders shipped with Hermes (orders valued £75-£149.99) or DPD (orders over £150 or upgraded delivery) can be tracked using the Consignment Number you should have received. For DPD please Click Here For Hermes please Click Here If you’ve selected Royal Mail or Asendia for international orders, you won’t be able to track your items. You…</p>
+                            </details>
+                            <p>15 May, 2017 by Bitch<p>
+
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>What happens if my order has not arrived?</summary>
+                                <p>Before contacting GAME to report a lost order or late delivery, please follow the steps below:</p>
+                                <p>1. Have you checked on the status of your order using our Order Tracking system?</p>
+                                <p>2. Has it been 5 working days, not including Sundays (or 21 days for international orders) since your order was despatched? See our Terms and Conditions of sale.</p>
+                                <p>Please note with Pre-orders we need to allow 10 working days from release date.</p>
+                                <p>In the unlikely event that your order has been lost in transit, we will do our best to replace it as soon as possible (depending upon product availability). Please be aware that you must contact us within 60 days of the despatch date of your order if it hasn’t arrived via the postal service. Unfortunately claims for lost in transit orders after this time cannot be accepted.</p>
+                                <p><b>What Next?</b></p>
+                                <p>If the required number of working days has elapsed please contact Customer Services.</p>
+                                <p>Special Deliveries</p>
+                                <p>Orders shipped via courier require the customer’s signature upon delivery and cannot be released by the driver without this.</p>
+
+                            </details>
+                            <p>28 April, 2017 by LongML<p>
+
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>Which countries do GAME ship to?</summary>
+                                <p>Vietnamese, England, Scotland, Wales, Northern Ireland, Channel Islands, Islands of Scotland, Falkland Islands, Isle of Man, Isles of Scilly.</p>
+                            </details>
+                            <p>16 April, 2017 by Lynk98<p>
+
+                        </div>
+                        <div class="question">
+                            <details>
+                                <summary>What do I do if I receive the wrong product?</summary>
+                                <p>If you receive the wrong item in your order, please contact our Customer Service team. Make sure you have your order number, item(s) being returned, and item(s) you were expecting at hand. A member of the team will give you the details needed to return the incorrect items free of charge.</p>
+                            </details>
+                            <p>5 April, 2017 by Coun13<p>
+                        </div> 
+                        <div class="question">      
+                            <details>
+                                <summary>What does next business day mean?</summary>
+                                <p>Business days can differ by courier, and this can impact how soon you should expect your order to arrive, as well as how quickly we can offer a resolution for undelivered orders.</p>
+                            </details>
+                            <p>29 March, 2017 by Xuxu<p>
+                        </div> 
+                        <div class="question">
+                            <details>
+                                <summary>What do I do if something is missing from my parcel?</summary>
+                                <p>Sometimes orders can be sent in two separate packages. Please contact our Customer Service team for assistance in locating your missing items.</p>
+                            </details>
+                            <p>7 March, 2017 by Kuzen<p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column question-tab-child wow bounceInRight">
+                    <figure class="image">
+                        <img src="../images/1.png"></a>
+                    </figure>
+                    <div class="support">
+                        <h1>Support</h1>
+                        <p>Need more support? If you did not found an answer, contact us for further help.</p>
+                        <br>
+                        <a href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </content>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="columns top-footer">
+            <div class="column tabs is-centered">
+                <ul>
+                    <li><a href="../news.html">GSHOP BLOG</a></li>
+                    <li><a href="../about.html">OUR TEAM</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a>PAY</a></li>
+                    <li><a href="support.html">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="columns mid-footer">
+            <div class="column ">
+                <div class="column tabs is-centered wow bounceInUp">
+                    <ul>
+                        <li><a><span class="icon is-large"><i class="fa fa-linkedin-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-youtube-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-facebook-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-twitter-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-steam-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-google-plus-square"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h1 class="title is-2">You never walk alone.</h1>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h2 class="subtitle">We will always beside you.</h2>
+        </div>
+        <div class="columns tabs address-footer is-centered">
+            <ul>
+                <li><a><span class="icon is-medium"><i class="fa fa-envelope"></i></span>
+                        <p style="color:#00cc09; font-weight:500">Gshopgaming@gmail.com</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-phone"></i></span>
+                        <p style="color:#dbdbdb ; font-weight:500">(+84) 162 971 9292</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-building"></i></span>
+                        <p style="color:#dbdbdb; font-weight:500">1 Hoang Dao Thuy, Ha Noi</p></a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns down-footer is-centered">
+            <h1 class="title is-6">Copyright 2017 TeamHCL. All Rights Reserved.</h1>
+        </div>
+    </footer>
+</body>
+</html>
+

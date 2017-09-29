@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 May 2017, 10:25:05 AM
+    Author     : coz
+*/
+.body-news-child {
+  margin: 5em;
+  padding: 7.5em 1em 3em 1em; }
+  .body-news-child .title-news {
+    padding-bottom: 2em;
+    border-bottom: 1px #4f4f4f solid; }
+    .body-news-child .title-news h1 {
+      padding-bottom: 1em;
+      color: #f4f4f4;
+      font-weight: 500;
+      font-family: 'Russo One', sans-serif; }
+    .body-news-child .title-news h2 {
+      color: #adadad; }
+  .body-news-child .time-line {
+    padding-top: 1em; }
+  .body-news-child .full-purport {
+    padding-top: 5em; }
+    .body-news-child .full-purport .follow h1 {
+      color: #efefef;
+      font-weight: 600;
+      padding: 2em 2em 1em 2em; }
+    .body-news-child .full-purport .follow ul {
+      text-align: center; }
+    .body-news-child .full-purport .follow ul li {
+      text-align: center;
+      padding: 1em 1em 0 0; }
+      .body-news-child .full-purport .follow ul li .image {
+        margin: auto; }
+        .body-news-child .full-purport .follow ul li .image img {
+          border-radius: 15px; }
+      .body-news-child .full-purport .follow ul li a {
+        color: #ff8601;
+        font-weight: 500; }
+    @media only screen and (max-width: 768px) {
+      .body-news-child .full-purport .follow {
+        display: none; } }
+    .body-news-child .full-purport .purport {
+      padding: 1.75em 1em 0 0; }
+      .body-news-child .full-purport .purport p {
+        color: #efefef;
+        font-size: 18px; }
+        .body-news-child .full-purport .purport p a {
+          color: #00cc09; }
+      .body-news-child .full-purport .purport #like {
+        background-color: #00cc09;
+        padding: 0.5em;
+        color: #f7f7f7;
+        font-size: 16px;
+        margin-top: 1em;
+        border: 2px #00cc09 solid;
+        font-family: 'Righteous', cursive; }
+      .body-news-child .full-purport .purport #like:hover {
+        border: 2px #00cc09 dashed;
+        background-color: #1c1c1c;
+        color: #00cc09;
+        transition: 0.3s; }
+      .body-news-child .full-purport .purport #viewcmt {
+        background-color: #1c1c1c;
+        padding: 0.5em;
+        color: #00cc09;
+        font-size: 16px;
+        margin-top: 1em;
+        border: 2px #00cc09 solid;
+        font-family: 'Righteous', cursive; }
+      .body-news-child .full-purport .purport #viewcmt:hover {
+        border: 2px #00cc09 dashed;
+        transition: 0.3s; }
+      .body-news-child .full-purport .purport #cmt .box {
+        margin-top: 1em;
+        background-color: #282828; }
+        .body-news-child .full-purport .purport #cmt .box .media-content p {
+          color: #dbdbdb; }
+          .body-news-child .full-purport .purport #cmt .box .media-content p strong {
+            color: #efefef; }
+        .body-news-child .full-purport .purport #cmt .box .level a {
+          color: #00cc09; }
+
+@media only screen and (max-width: 768px) {
+  .body-news-child {
+    margin: 1em; } }
+
+/*# sourceMappingURL=child-news-style.css.map */

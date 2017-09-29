@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 May 2017, 10:25:05 AM
+    Author     : coz
+*/
+
+.body-news-child{
+    margin: 5em;
+    padding:7.5em 1em 3em 1em;
+
+    .title-news{
+        padding-bottom: 2em;
+        border-bottom: 1px #4f4f4f solid;
+        h1{
+            padding-bottom: 1em;
+
+            color: #f4f4f4;
+            font-weight: 500;
+            font-family: 'Russo One', sans-serif;
+        }
+        h2{
+            color:#adadad;
+        }
+    }
+    .time-line{
+        padding-top: 1em;
+    }
+    .full-purport{
+        padding-top: 5em;
+        .follow{
+            h1{
+                color: #efefef;
+                font-weight: 600;
+                padding: 2em 2em 1em 2em;
+
+            }
+            ul{
+                text-align: center;
+            }
+            ul li{
+                text-align: center;
+                padding: 1em 1em 0 0;
+                .image{
+                    margin:auto;
+                    img{
+                        border-radius: 15px;
+                    }
+                }
+
+                a{
+                    color: #ff8601;
+                    font-weight: 500;
+                }
+            }
+        }
+        @media only screen and (max-width:768px){
+            .follow{
+                display: none;
+            }
+        }
+        .purport{
+            padding: 1.75em 1em 0 0;
+            p{
+                color: #efefef;
+                font-size: 18px;
+                a{
+                    color:#00cc09;
+                }
+            }
+            #like{
+                background-color: #00cc09;
+                padding: 0.5em;
+                color: #f7f7f7;
+                font-size: 16px;
+                margin-top: 1em;
+                border: 2px #00cc09 solid;
+                font-family: 'Righteous', cursive;
+            }
+            #like:hover{
+                border: 2px #00cc09 dashed;
+                background-color: #1c1c1c;
+                color: #00cc09;
+                transition: 0.3s;
+            }
+            #viewcmt{
+                background-color: #1c1c1c;
+                padding: 0.5em;
+                color: #00cc09;
+                font-size: 16px;
+                margin-top: 1em;
+                border: 2px #00cc09 solid;
+                font-family: 'Righteous', cursive;
+            }
+            #viewcmt:hover{
+                border: 2px #00cc09 dashed;
+                transition: 0.3s;
+            }
+            #cmt{
+                .box{
+                    margin-top: 1em;
+                    background-color: #282828;
+                    .media-content{
+                        p{
+                            color: #dbdbdb;
+                            strong{
+                                color: #efefef;
+                            }
+                        }
+
+                    }
+                    .level{
+                        a{
+                            color:#00cc09;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .body-news-child{
+        margin: 1em;
+    }
+}

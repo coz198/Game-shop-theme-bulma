@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="background-color: #2d2d2d">
+    <head>
+        <title>Video Game News, Game News - GameSport</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" href="css/style_2.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/shop-style.css">
+        <link rel="stylesheet" href="css/login.css">
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <link href="https://fonts.googleapis.com/css?family=Jockey+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/news-style.css"/>
+
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+
+
+        <script src="js/jssor.slider-23.1.1.min.js" type="text/javascript"></script>
+
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+        <script>
+            function show() {
+                document.getElementById("tab-popular-2").style.display = "block";
+            }
+            ;
+        </script>
+        <script src="js/js01.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="columns menu">
+                <div class="column tab-menu">
+                    <nav class="nav menu-top">
+                        <div class="nav-left menu-list-child">
+                            <a href="index.html" class="nav-item wow bounceIn"><img src="images/logo.png">
+                            </a>
+                        </div>
+
+                        <a class="hideShowMenu">
+                            <label for="menu-toggle" class="nav-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+
+                        </a>
+                        <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+                        <div class="nav-right nav-menu">
+                            <a href="index.html" class="nav-item menu-list-child" >
+                                Home
+                            </a>
+                            <a href="news.html" class="nav-item menu-list-child"  style="color:#00cc09; border-bottom: 5px #00cc09 solid;"> 
+                                News
+                            </a>
+                            <a href="shop.html" class="nav-item menu-list-child" >
+                                Shop
+                            </a>
+                            <a href="playstation.html" class="nav-item menu-list-child">
+                                PlayStation
+                            </a>
+                            <a href="pc.html" class="nav-item menu-list-child">
+                                PC
+                            </a>
+                            <a href="xbox.html" class="nav-item menu-list-child" >
+                                Xbox
+                            </a>
+                            <a href="mobi.html" class="nav-item menu-list-child" >
+                                Mobile
+                            </a>
+                            <a href="about.html" class="nav-item menu-list-child"   >
+                                About
+                            </a>
+                            <a class="nav-item"  id="search">
+                                <span class="icon is-small">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </a>
+                            <input class="nav-item" id="input-text" type="text" name="field1" placeholder="Search Tab" style="display: none;"/>
+
+
+                            <a class="nav-item"  id="times" style="display: none;">
+                                <span class="icon is-small">
+                                    <i class="fa fa-times" ></i>
+                                </span>
+                            </a>
+                            <span class="nav-item">
+                                <a  class="button is-primary button-login">
+                                    <span>LOGIN</span>
+                                </a>
+                            </span>
+                            <p class="nav-item line line" style="margin: 1.25em 0 1.25em 1em; border-left: 1px #7a7a7a solid;" >
+                            </p>
+                            <p class="nav-item line">
+                                <a class="cart">
+                                    <span class="icon is-medium">
+                                        <i class="fa fa-shopping-cart" ></i>
+                                    </span>
+                                    <span class="buy-number" style="display: none; color: white; background: red; border-radius: 10px; padding: 2px 8px 2px 8px; margin: 0 0 0 -15px ;">0</span>
+                                </a>
+                            </p>
+                        </div>
+                    </nav>
+                    <div class="login-form">
+                        <div class="form">
+                            <h1 style="height: 40px;"><span class="icon is-small exit-icon" style="float:right ; position: block"><i class="fa fa-times" style="left:10px; color: #efefef"></i></span></h1>
+                            <ul class="tab-group">
+                                <li class="tab active"><a href="#signup" class="a-login">Sign Up</a></li>
+                                <li class="tab"><a href="#login" class="a-login">Log In</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="signup">   
+                                    <h1 class="title-text">Sign Up for Free</h1>
+                                    <form action="/" method="post">
+                                        <div class="top-row">
+                                            <div class="field-wrap">
+                                                <label>
+                                                    First Name<span class="req">*</span>
+                                                </label>
+                                                <input  class="input-text" type="text" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Last Name<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="text" required autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Set A Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <button type="submit" class="buttonX button-block">Get Started</button>
+                                        <button type="submit" class="exit buttonX button-block">Exit</button>
+                                    </form>
+                                </div>
+                                <div id="login">   
+                                    <h1 class="title-text">Welcome Back!</h1>
+                                    <form action="/" method="post">
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+                                        <button class="buttonX button-block"/>Log In</button>
+                                    </form>
+                                </div>
+                            </div><!-- tab-content -->
+                        </div>
+                    </div>
+                    <script src="js/login.js"></script>
+                </div>
+            </div>
+        </header>
+    <content>
+        <div class="body-news column">
+            <div class="news-image" style="padding: 0;">
+                <figure class="image img-banner">
+                    <div class="text-banner">
+                        <h1>This Week's PS4, PS3, And Vita Deals Announced</h1>
+                        <h2>God of War, Ghost Recon Wildlands, For Honor, and a bunch of other games are on sale this week on the PlayStation Store.</h2>
+                    </div>
+                    <a href="child/template-news-child.html"><img src="img/news-image.jpg"></a>
+                </figure>
+            </div>
+
+            <div class="columns news-1">
+                <div class="column tab-new wow bounceInLeft" data-wow-duratdataion="0.25s">
+                    <figure class="image img-banner">
+                        <a href="child/template-news-child.html"><img src="img/n3.jpg"></a>
+                    </figure>
+                    <a href="child/template-news-child.html"><h1>Forza Horizon 3 Hot Wheels Livestream</h1></a>
+                </div>
+                <div class="column tab-new wow bounceInLeft">
+                    <figure class="image img-banner">
+                        <a href="child/template-news-child.html"><img src="img/n6.jpg"></a>
+                    </figure>
+                    <a href="child/template-news-child.html"><h1>Sniper: Ghost Warrior 3 </h1></a>
+                </div>
+                <div class="column tab-new wow bounceInRight">
+                    <figure class="image img-banner">
+                        <a href="child/template-news-child.html"><img src="img/n4.jpg"></a>
+                    </figure>
+                    <a href="child/template-news-child.html"><h1>NieR:Automata </h1></a>
+                </div>
+                <div class="column tab-new wow bounceInRight" data-wow-duratdataion="0.25s">
+                    <figure class="image img-banner">
+                        <a href="child/template-news-child.html"><img src="img/n5.jpg"></a>
+                    </figure>
+                    <a href="child/template-news-child.html"><h1>MX vs ATV Supercross Encore Edition  </h1></a>
+                </div>
+            </div>
+
+            <div class="columns news-2">
+                <div class="column is-8 wow bounceInLeft ">
+                    <div class="wow bounceInLeft">
+                        <h1 class="popular">POPULAR</h1>
+                    </div>
+                    <div id="tab-popular-1">
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4 ">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n8.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>New Assassin's Creed Game's Screenshot And Name Reportedly Leaked</h1></a>
+                                <h2>We've got new information about 's entry in the Assassin's Creed series.</h2>
+                                <h3>22 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n9.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="#"><a href="child/template-news-child.html"><h1>Grisaia Phantom Trigger Vol.2 </h1></a></a>
+                                <h2>Grisaia: Phantom Trigger is a series of visual novels that takes place in the world of Grisaia, introduces a new storyline and new cast and ...</h2>
+                                <h3>21 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n10.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Marvel's Guardians of the Galaxy: The Telltale Series </h1></a>
+                                <h2>Animal Rivals - King Bryan inherits the throne by chance.</h2>
+                                <h3>20 hours, 15 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n11.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>SENRAN KAGURA ESTIVAL VERSUS </h1></a>
+                                <h2>Senran Kagura is a game developed by Tmsoft and published by Marvelous Entertainment...</h2>
+                                <h3>12 hours, 13 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n12.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Tom Clancy's Ghost Recon Wildlands </h1></a>
+                                <h2>Tom Clancy's Ghost Recon Wildlands is an action game, shooting game. You will come to Bolivia, where a powerful drug cartel is sowing terror, violence, and turmoil, ...</h2>
+                                <h3>20 hours, 16 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n13.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>BERSERK and the Band of the Hawk </h1></a>
+                                <h2>The game is an intense mix of "Warriors" and "Berserk"! In the Berserk and the Band of the Hawk, ...</h2>
+                                <h3>27 hours, 19 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n14.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Monkey Land 3D: Reaper Rush </h1></a>
+                                <h2>Mugen is a pirate monkey looking for adventures along the way! Mugen and his crew landed on a seemingly outlandish and funky island...</h2>
+                                <h3>25 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n15.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Marvel's Guardians of the Galaxy: The Telltale Series </h1></a>
+                                <h2>Tom Clancy's Ghost Recon Wildlands is an action game, shooting game. You will come to Bolivia, where a powerful drug cartel is sowing terror, violence, and turmoil, ...</h2>
+                                <h3>20 hours, 16 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n5.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Resident Evil 7 Biohazard </h1></a>
+                                <h2>Resident Evil 7 is really a quality horror game if you can ignore its differences compared to the previous version...</h2>
+                                <h3>22 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n14.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Grisaia Phantom Trigger Vol.2 </h1></a>
+                                <h2>Resident Evil 7 is really a quality horror game if you can ignore its differences compared to the previous version...</h2>
+                                <h3>22 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="tab-popular-2" style="display: none;">
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n16.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>The Last Hope: Trump vs Mafia </h1></a>
+                                <h2>Arc Continuum is set in the fantasy world, where players will be given a special weapon called 'The Arc' with the power to control time...</h2>
+                                <h3>24 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n17.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="#"><a href="child/template-news-child.html"><h1>Crazy Oafish Ultra Blocks: Big Sale </h1></a></a>
+                                <h2>Space Hulk: Deathwing is a game developed based on a board game of the same name of the Warhammer 40,000 universe...</h2>
+                                <h3>22 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n18.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>The Turkey of Christmas Past </h1></a>
+                                <h2>Wanted Corp. Is a top-down action action game in which you play two space mercenaries with different abilities...</h2>
+                                <h3>28 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n19.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Disney Infinity 3.0: Gold Edition </h1></a>
+                                <h2>If you've ever liked Odin Sphere, then a game similar to Earth's Dawn would be worth a try. Earlier, Earth's Dawn was in the Japanese market called Earth Wars...</h2>
+                                <h3>29 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n20.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Disney Infinity 1.0: Gold Edition</h1></a>
+                                <h2>Disney Infinity 1.0: Gold Edition offers you the freedom and endless opportunity to create stories and play the experience with all characters in Disney Infinity 1.0..</h2>
+                                <h3>32 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n21.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Darksiders Warmastered Edition </h1></a>
+                                <h2>Darksiders Warmastered Edition is a Darksiders remake, action role-playing game, hack and slash, third-person shooter developed by Vigil Games and released by THQ.</h2>
+                                <h3>26 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n22.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Kick Ass Commandos </h1></a>
+                                <h2>In 2007, when the game Alien Shooter was born, the 8x, 9x players will never forget the classic game with the monsters, or the classic "hack".</h2>
+                                <h3>28 hours, 16 minute ago</h3>
+                            </div>
+                        </div>
+                        <div class="columns news-tab wow bounceInLeft ">
+                            <div class="column is-4">
+                                <figure class="image">
+                                    <a href="child/template-news-child.html"><img src="img/n23.jpg"></a>
+                                </figure>
+                            </div>
+                            <div class="column is-8 wow bounceInLeft ">
+                                <a href="child/template-news-child.html"><h1>Metal Tales: Fury of the Guitar Gods </h1></a>
+                                <h2>Metal Tales: Fury of the Guitar Gods  is the sequel to the same-named horror title previously released in 2009 on Tripware's Steam.</h2>
+                                <h3>26 hours, 1 minute ago</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <a  onClick="show()"><h3 class="showmore">Show more</h3></a>
+                    </div>
+                </div>
+
+
+                <div class="column is-4 top-upcoming">
+                    <div>
+                        <div class="wow bounceInRight ">
+                            <h1 class="text-top-upcoming-game">TOP UPCOMING GAMES</h1>
+                        </div>
+                        <div class="ten-game">
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">1</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2 class="upcoming-game-name">Dota 2: New Juggernaut </h2></a>
+                                            <p>Tohday the Juggernaut receives <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-1.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">2</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>World to the West </h2></a>
+                                            <p>Tom Clancy's Ghost Recon Wildlands <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-2.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">3</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Expeditions: Viking  </h2></a>
+                                            <p>Mugen is a pirate monkey looking for <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-3.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">4</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Ruin of the Reckless  </h2></a>
+                                            <p>Metal Tales: Fury of the Guitar Gods  <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-4.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">5</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Sniper: Ghost Warrior 3  </h2></a>
+                                            <p>In 2007, when the game Alien Shooter was born <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-5.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">6</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Shiness: The Kingdom  </h2></a>
+                                            <p>Wanted Corp. Is a top-down action <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-6.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">7</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>SpellForce 2 </h2></a>
+                                            <p>Space Hulk: Deathwing is a game developed <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-7.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">8</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Shock Tactics  </h2></a>
+                                            <p>Resident Evil 7 is really a quality <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-8.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">9</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Vikings - Wolves of TA </h2></a>
+                                            <p>Disney Infinity 1.0: Gold Edition offers <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-9.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="columns top-upcoming-game">
+                                <div class=" column is-1 wow bounceInLeft">
+                                    <h1 class="id">10</h1>
+                                </div>
+                                <div class="id column is-11 wow bounceInRight " data-wow-duratdataion="0.25s">
+                                    <figure class="image">
+                                        <div class="text-info-game ">
+                                            <a href="child/template-news-child.html"><h2>Mass Effect: Andromeda </h2></a>
+                                            <p>Arc Continuum is set in the fantasy world <span><a href="child/template-news-child.html">Read+</a></span></p>
+                                        </div>
+                                        <img src="img/t-c-10.jpg">
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="see-all wow bounceInUp">
+                                <a href="#"><h3 class="showmore">See All Reviews >>></h3></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="wow bounceInRight">
+                            <h1 class="text-reviews">REVIEWS</h1>
+                        </div>
+                        <div class="topday-img wow bounceInRight">
+                            <figure class="image">
+                                <img src="img/topday.jpg">
+                            </figure>
+                        </div>
+                        <div class="columns game-in-top">
+                            <div class="column is-8 wow bounceInLeft ">
+                                <h1 class="topday-game-name">The Sexy Brutale</h1>
+                            </div>
+                            <div class="column is-4 wow bounceInRight" data-wow-duratdataion="0.25s" >
+                                <h1 class="topday-game-point">9</h1>
+                                <h2 class="topday-game-status">Succeed</h2>
+                            </div>
+                        </div>
+                        <div class="columns game-in-top">
+                            <div class="column is-8 wow bounceInLeft ">
+                                <h1 class="topday-game-name">Cosmic Star Heroine</h1>
+                            </div>
+                            <div class="column is-4 wow bounceInRight" data-wow-duratdataion="0.25s" >
+                                <h1 class="topday-game-point">7</h1>
+                                <h2 class="topday-game-status">Succeed</h2>
+                            </div>
+                        </div>
+                        <div class="columns game-in-top">
+                            <div class="column is-8 wow bounceInLeft ">
+                                <h1 class="topday-game-name">Little Nightmares</h1>
+                            </div>
+                            <div class="column is-4 wow bounceInRight" data-wow-duratdataion="0.25s" >
+                                <h1 class="topday-game-point">5</h1>
+                                <h2 class="topday-game-status">Fail</h2>
+                            </div>
+                        </div>
+                        <div class="columns game-in-top">
+                            <div class="column is-8 wow bounceInLeft ">
+                                <h1 class="topday-game-name">Tumbleseed</h1>
+                            </div>
+                            <div class="column is-4 wow bounceInRight" data-wow-duratdataion="0.25s" >
+                                <h1 class="topday-game-point">6</h1>
+                                <h2 class="topday-game-status">Succeed</h2>
+                            </div>
+                        </div>
+                        <div class="columns game-in-top">
+                            <div class="column is-8 wow bounceInLeft ">
+                                <h1 class="topday-game-name">Pinstripe</h1>
+                            </div>
+                            <div class="column is-4 wow bounceInRight" data-wow-duratdataion="0.25s" >
+                                <h1 class="topday-game-point">8</h1>
+                                <h2 class="topday-game-status">Succeed</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </content>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="columns top-footer">
+            <div class="column tabs is-centered">
+                <ul>
+                    <li><a href="news.html">GSHOP BLOG</a></li>
+                    <li><a href="about.html">OUR TEAM</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="child/contact.html">CONTACT</a></li>
+                    <li><a>PAY</a></li>
+                    <li><a href="child/support.html">FAQs</a></li>  
+                </ul>
+            </div>
+        </div>
+        <div class="columns mid-footer">
+            <div class="column ">
+                <div class="column tabs is-centered wow bounceInUp">
+                    <ul>
+                        <li><a><span class="icon is-large"><i class="fa fa-linkedin-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-youtube-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-facebook-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-twitter-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-steam-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-google-plus-square"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h1 class="title is-2">You never walk alone.</h1>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h2 class="subtitle">We will always beside you.</h2>
+        </div>
+        <div class="columns tabs address-footer is-centered">
+            <ul>
+                <li><a><span class="icon is-medium"><i class="fa fa-envelope"></i></span>
+                        <p style="color:#00cc09; font-weight:500">Gshopgaming@gmail.com</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-phone"></i></span>
+                        <p style="color:#dbdbdb ; font-weight:500">(+84) 162 971 9292</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-building"></i></span>
+                        <p style="color:#dbdbdb; font-weight:500">1 Hoang Dao Thuy, Ha Noi</p></a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns down-footer is-centered">
+            <h1 class="title is-6">Copyright 2017 TeamHCL. All Rights Reserved.</h1>
+        </div>
+    </footer>
+</body>
+</html>

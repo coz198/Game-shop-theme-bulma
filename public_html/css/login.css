@@ -1,0 +1,212 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+
+
+.form{
+    background: #c1bdba;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.a-login {
+    text-decoration: none;
+    color: #1ab188;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.a-login:hover {
+    color: #179b77;
+}
+
+.form {
+    z-index: 5;
+    background: rgba(22, 22, 22, 0.9);
+    padding: 10px 30px 30px 30px;
+    max-width: 400px;
+    margin-top: 70px;
+    margin-right: 0;
+}
+
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 16px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+}
+.tab-group li a:hover {
+    background: #00fc15;
+    color: #ffffff;
+}
+.tab-group .active a {
+    background: #00cc09;
+    color: #ffffff;
+}
+
+.tab-content > div:last-child {
+    display: none;
+}
+
+.title-text {
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 0 0 20px;
+}
+
+label {
+    padding-left: 10px;
+    position: absolute;
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+    color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size: 15px;
+}
+label .req {
+    margin: 2px;
+    color: #00cc09;
+}
+
+label.active {
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+    left: 2px;
+    font-size: 14px;
+    
+}
+label.active .req {
+    opacity: 0;
+
+}
+
+label.highlight {
+    color: #ffffff;
+}
+
+.input-text {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 15px;
+    background: none;
+    background-image: none;
+    border: 1px solid #a0b3b0;
+    color: #ffffff;
+    border-radius: 0;
+    -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+    transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+    outline: 0;
+    border-color: #00cc09;
+}
+
+textarea {
+    border: 2px solid #a0b3b0;
+    resize: vertical;
+}
+
+.field-wrap {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.top-row > div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+}
+.top-row > div:last-child {
+    margin: 0;
+}
+
+.buttonX {
+    margin-top:  10px;
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 0;
+    font-size: 1em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    background: #00cc09;
+    color: #ffffff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+}
+.buttonX:hover, .buttonX:focus {
+    background: #00fc15;
+}
+
+.button-block {
+    display: block;
+    width: 100%;
+}
+
+.forgot {
+    margin-top: -20px;
+    text-align: right;
+}
+.forgot a{
+    color: #00cc09;
+}
+
+@media screen and (max-width: 768px) {
+    .exit{
+        display: none;
+    }
+}
+
+#input-text{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #4c4c4c;
+    background: transparent;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 60px;
+    color:#efefef;
+}
+@media only screen and (max-width: 768px){
+    #input-text{
+        margin: 20px;
+        width: 90%;
+        color:#282828;
+    }
+}

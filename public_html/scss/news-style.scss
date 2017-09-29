@@ -1,0 +1,235 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 May 2017, 7:48:38 PM
+    Author     : coz
+*/
+
+.body-news{
+    margin-bottom: 3em;
+    padding:0;
+    .news-image{
+        .img-banner{
+            .text-banner{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                position: absolute;
+                z-index: 1;
+                top: 40%;
+                h1{
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 600;
+                    color: #efefef;
+                    font-family: 'Jockey One', sans-serif;
+                    text-shadow: 0px 1px 0px #141414;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 25px;
+                    color: #efefef;
+                    font-weight: thin;
+                    font-family: 'Poiret One', cursive;
+                }
+                @media only screen and (max-width: 768px){
+                    h1{
+                        font-size: 20px;
+                    }
+                    h2{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .news-1{
+        padding: 1em;   
+        margin: 0 2em 0 2em;
+        .tab-new{
+            h1{
+                margin-top: 1em;
+                color: #efefef;
+                font-size: 1em;
+                font-weight: 700;
+            }
+        }
+        .tab-new:hover{
+            h1{
+                color:#00cc09;
+                transition: .3s;
+            }
+        }
+
+    }
+
+    .news-2{
+        margin: 0 2em 0 2em;
+        .is-8{
+            div{
+                .popular{
+                    margin: 1em;
+                    color: #f4f4f4;
+                    font-weight: 500;
+                    padding: 1em;
+                    background-color: #00cc09;
+                }
+            }
+            .news-tab{
+                padding: 0 1em 0 1em;
+                .is-8{
+                    h1{
+                        font-weight: 700;
+                        color: #efefef;
+                    } 
+                    h1:hover{
+                        color:#00cc09;
+                        transition: 0.3s;
+                    }
+                    h2{
+                        color: #999999;
+                    }   
+                    h3{
+                        font-size: 14px;
+                    } 
+
+                }
+            }
+            .showmore{
+                text-align: center;
+                color: #00cc09;
+                font-weight: 700;
+                padding: 1em;
+                border: 5px #00cc09 solid;
+            }
+        }
+
+
+        .top-upcoming{
+            margin:1em;
+            margin-top:0;
+            div{
+                .text-top-upcoming-game{
+                    margin: 1em;
+                    color: #f4f4f4;
+                    font-weight: 500;
+                    padding: 1em;
+                    border-left:  5px solid #00cc09;
+                }
+            }
+            .ten-game{
+                margin:2em;
+                .top-upcoming-game{
+                    .is-1{
+                        padding: 0;
+                        margin:auto;
+                        .id{
+                            color:#4f93c4;
+                            font-weight: 600;
+                            font-size: 1.5em;
+                        }
+                         @media only screen and (max-width: 999px) and (min-width: 768px){
+                             .id{
+                                 font-size: 1em;
+                             }
+                                }
+                    }
+                    .is-11{
+                        padding: 0;
+                        .image{
+                            .text-info-game{
+                                margin: auto;
+                                position: absolute;
+                                padding: 1em;
+                                bottom:0px;
+                                z-index:888;
+
+                                h2{
+                                    color:#f4f4f4;
+                                    font-size: 1em;
+                                    text-shadow: 1px 1px 1px #232323;
+                                }
+                                h2:hover{
+                                    color:#00cc09;
+                                    transition: .3s;
+                                }
+                                p{
+                                    color:#dbdbdb;
+                                    font-weight: 300;
+                                    font-size: 0.75em;
+                                    text-shadow: 1px 1px 1px #232323;
+                                }
+                                @media only screen and (max-width: 999px) and (min-width: 768px){
+                                    p{
+                                        display: none;
+                                        
+                                    }
+                                    h2{
+                                        font-size: 0.75em;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .see-all{
+                    text-align: center;
+                    a{
+                        color:#00cc09;
+                    }
+                }
+            }
+
+            div{
+                .text-reviews{
+                    margin: 1em;
+                    color: #f4f4f4;
+                    font-weight: 500;
+                    padding: 1em;
+                    border-left:  5px solid #00cc09;
+                }
+            }
+            .topday-img{
+                padding: 0 1em 0 1em;
+
+            }
+            .game-in-top{
+                margin: 0em 1em 0em 1em;
+                border-bottom: 1px solid #565656;
+                .is-8{
+                    h1{
+                        color:#f4f4f4;
+                        font-weight: 600;
+                        font-size: 1em;
+                        top:50%;
+                    }
+                    h1:hover{
+                        color:#00cc09;
+                        transition: .3s;
+                    }
+                }
+                .is-4{
+                    border-left: 3px solid #565656;
+                    padding-bottom:0;
+                    background-color: #232323;
+                    h1{
+                        color:#00cc09;
+                        font-weight: 600;
+                        font-size: 1em;
+
+                    }
+                    h2{
+                        font-size: 1em;
+                        font-style: italic;
+                    }
+                }
+            }
+
+        }
+
+    }
+}

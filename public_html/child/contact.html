@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="background-color: #2d2d2d">
+    <head>
+        <title>Gshop Contact</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/bulma.css">
+        <link rel="stylesheet" href="../css/style_2.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        <link rel="stylesheet" href="../css/contact_style.css">
+        <link rel="stylesheet" href="../css/login.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="../icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="../icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="../icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="../icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="../icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="../icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="../icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="../icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="../icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="../icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="../icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../icon/favicon-16x16.png">
+        <link rel="manifest" href="../icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="../icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">        
+
+
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+
+
+        <link rel="stylesheet" href="../css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+
+        <script type="text/javascript" src="../js/wow.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-3.2.0.min.js"></script>
+        <script src="../js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="../js/js01.js"></script>
+
+    </head>
+    <body>
+        <header>
+            <div class="columns menu">
+                <div class="column tab-menu">
+                    <nav class="nav menu-top">
+                        <div class="nav-left menu-list-child">
+                            <a href="../index.html" class="nav-item wow bounceIn"><img src="../images/logo.png">
+                            </a>
+                        </div>
+                        <a class="hideShowMenu">
+                            <label for="menu-toggle" class="nav-toggle" >
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </a>
+                        <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+                        <div class="nav-right nav-menu">
+                            <a href="../index.html" class="nav-item menu-list-child" >
+                                Home
+                            </a>
+                            <a href="../news.html" class="nav-item menu-list-child" > 
+                                News
+                            </a>
+                            <a href="../shop.html" class="nav-item menu-list-child" >
+                                Shop
+                            </a>
+                            <a href="../playstation.html" class="nav-item menu-list-child">
+                                PlayStation
+                            </a>
+                            <a href="../pc.html" class="nav-item menu-list-child">
+                                PC
+                            </a>
+                            <a href="../xbox.html" class="nav-item menu-list-child" >
+                                Xbox
+                            </a>
+                            <a href="../mobi.html" class="nav-item menu-list-child" >
+                                Mobile
+                            </a>
+                            <a href="../about.html" class="nav-item menu-list-child" style="color:#00cc09; border-bottom: 5px #00cc09 solid;" >
+                                About
+                            </a>
+                            <a class="nav-item"  id="search">
+                                <span class="icon is-small">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </a>
+                            <input class="nav-item" id="input-text" type="text" name="field1" placeholder="Search Tab" style="display: none;"/>
+
+
+                            <a class="nav-item"  id="times" style="display: none;">
+                                <span class="icon is-small">
+                                    <i class="fa fa-times" ></i>
+                                </span>
+                            </a>
+                            <span class="nav-item">
+                                <a  class="button is-primary button-login">
+                                    <span>LOGIN</span>
+                                </a>
+                            </span>
+                            <p class="nav-item line" style="margin: 1.25em 0 1.25em 1em; border-left: 1px #7a7a7a solid;" >
+                            </p>
+                            <p class="nav-item line">
+                                <a class="cart">
+                                    <span class="icon is-medium">
+                                        <i class="fa fa-shopping-cart" ></i>
+                                    </span>
+                                    <span class="buy-number" style="display: none; color: white; background: red; border-radius: 10px; padding: 2px 8px 2px 8px; margin: 0 0 0 -15px ;">0</span>
+                                </a>
+                            </p>
+                        </div>
+                    </nav>
+                    <div class="login-form">
+                        <div class="form">
+                            <h1 style="height: 40px;"><span class="icon is-small exit-icon" style="float:right ; position: block"><i class="fa fa-times" style="left:10px; color: #efefef"></i></span></h1>
+                            <ul class="tab-group">
+                                <li class="tab active"><a href="#signup" class="a-login">Sign Up</a></li>
+                                <li class="tab"><a href="#login" class="a-login">Log In</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="signup">   
+                                    <h1 class="title-text">Sign Up for Free</h1>
+                                    <form action="/" method="post">
+                                        <div class="top-row">
+                                            <div class="field-wrap">
+                                                <label>
+                                                    First Name<span class="req">*</span>
+                                                </label>
+                                                <input  class="input-text" type="text" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Last Name<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="text" required autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Set A Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <button type="submit" class="buttonX button-block">Get Started</button>
+                                        <button type="submit" class="exit buttonX button-block">Exit</button>
+                                    </form>
+                                </div>
+                                <div id="login">   
+                                    <h1 class="title-text">Welcome Back!</h1>
+                                    <form action="/" method="post">
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+                                        <button class="buttonX button-block"/>Log In</button>
+                                    </form>
+                                </div>
+                            </div><!-- tab-content -->
+                        </div>
+                    </div>
+                    <script src="../js/login.js"></script>
+                </div>
+            </div>
+
+        </header>
+    <content>
+        <div class="columns column contact">
+            <div class="column is-9">
+                <!--                <figure class="image">
+                                    <div class="text">
+                                        <i class="fa fa-map-marker wow bounceIn" data-wow-delay="1.5s"></i>
+                                        <div class="add-map wow bounceIn" data-wow-delay="2s">
+                                            <h1>53/402 Thien Hien</h1>
+                                            <hr>
+                                            <h1 style="color: #00cc09">Gshopgaming@gmail.com</h1>
+                                            <hr>
+                                            <h1>(+84) 162 971 9292</h1>
+                                        </div>
+                                    </div>
+                                    
+                                    <img src="../images/map.png" class="wow bounceInLeft">
+                                </figure>-->
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.683118058742!2d105.80258160400606!3d21.005335776617724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aca218190067%3A0x22044a1717cc24c4!2zMSBIb8OgbmcgxJDhuqFvIFRow7p5LCBUcnVuZyBIw7JhIE5ow6JuIENow61uaCwgVHJ1bmcgSG_DoCwgQ-G6p3UgR2nhuqV5LCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1494779315521" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="column is-3 wow bounceInRight">
+                <p>CONNECT</p>
+                <div class="social is-centered">
+                    <a><span class="icon "><i class="fa fa-linkedin"></i></span></a>
+                    <a><span class="icon "><i class="fa fa-youtube"></i></span></a>
+                    <a><span class="icon "><i class="fa fa-facebook"></i></span></a>
+                    <a><span class="icon "><i class="fa fa-twitter"></i></span></a>
+                    <a><span class="icon "><i class="fa fa-google-plus"></i></span></a>
+                </div>
+                <hr>
+                <p>GET IN CONTACT</p>
+                <input placeholder="Email" type="email">
+                <input placeholder="Subject" type="text">
+                <textarea placeholder="Message" rows="4"></textarea>
+                <a href="#" class="button is-success is-medium submit">Submit</a>
+                <hr>
+                <p>OTHER WAY</p>
+                <div class="address">
+                    <h1><span class="icon "><i class="fa fa-map-marker"></i></span> 1 HOANG DAO THUY, HA NOI</h1>
+                    <h1><span class="icon "><i class="fa fa-envelope"></i></span> Gshopgamming@gmail.com</h1>
+                    <h1><span class="icon "><i class="fa fa-phone"></i></span> (+84) 162 971 9292</h1>
+                </div>
+            </div>
+
+        </div>
+    </content>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="columns top-footer">
+            <div class="column tabs is-centered">
+                <ul>
+                    <li><a href="../news.html">GSHOP BLOG</a></li>
+                    <li><a href="../about.html">OUR TEAM</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    <li><a>CONTACT</a></li>
+                    <li><a>PAY</a></li>
+                    <li><a href="child/support.html">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="columns mid-footer">
+            <div class="column ">
+                <div class="column tabs is-centered wow bounceInUp">
+                    <ul>
+                        <li><a><span class="icon is-large"><i class="fa fa-linkedin-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-youtube-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-facebook-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-twitter-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-steam-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-google-plus-square"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h1 class="title is-2">You never walk alone.</h1>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h2 class="subtitle">We will always beside you.</h2>
+        </div>
+        <div class="columns tabs address-footer is-centered">
+            <ul>
+                <li><a><span class="icon is-medium"><i class="fa fa-envelope"></i></span>
+                        <p style="color:#00cc09; font-weight:500">Gshopgaming@gmail.com</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-phone"></i></span>
+                        <p style="color:#dbdbdb ; font-weight:500">(+84) 162 971 9292</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-building"></i></span>
+                        <p style="color:#dbdbdb; font-weight:500">1 Hoang Dao Thuy, Ha Noi</p></a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns down-footer is-centered">
+            <h1 class="title is-6">Copyright 2017 TeamHCL. All Rights Reserved.</h1>
+        </div>
+    </footer>
+</body>
+</html>
+

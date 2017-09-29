@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="background-color: #2d2d2d">
+    <head>
+        <title>About Us</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" href="css/style_2.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/about-style.css">
+        <link rel="stylesheet" href="css/login.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">        
+
+
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="css/Menu_Style.css" type="text/css">
+
+
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+
+
+        <script src="js/js01.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+    </head>
+    <body>
+        <header >
+            <div class="columns menu" >
+                <div class="column tab-menu">
+                    <nav class="nav menu-top">
+                        <div class="nav-left menu-list-child">
+                            <a href="index.html" class="nav-item wow bounceIn"><img src="images/logo.png">
+                            </a>
+                        </div>
+                        <a class="hideShowMenu">
+                            <label for="menu-toggle" class="nav-toggle">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </label>
+                        </a>
+                        <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+                        <div class="nav-right nav-menu">
+                            <a href="index.html" class="nav-item menu-list-child" >
+                                Home
+                            </a>
+                            <a href="news.html" class="nav-item menu-list-child" > 
+                                News
+                            </a>
+                            <a href="shop.html" class="nav-item menu-list-child" >
+                                Shop
+                            </a>
+                            <a href="playstation.html" class="nav-item menu-list-child">
+                                PlayStation
+                            </a>
+                            <a href="pc.html" class="nav-item menu-list-child">
+                                PC
+                            </a>
+                            <a href="xbox.html" class="nav-item menu-list-child" >
+                                Xbox
+                            </a>
+                            <a href="mobi.html" class="nav-item menu-list-child" >
+                                Mobile
+                            </a>
+                            <a href="about.html" class="nav-item menu-list-child"   style="color:#00cc09; border-bottom: 5px #00cc09 solid;" >
+                                About
+                            </a>
+                            <a class="nav-item"  id="search">
+                                <span class="icon is-small">
+                                    <i class="fa fa-search"></i>
+                                </span>
+                            </a>
+                            <input class="nav-item" id="input-text" type="text" name="field1" placeholder="Search Tab" style="display: none;"/>
+
+
+                            <a class="nav-item"  id="times" style="display: none;">
+                                <span class="icon is-small">
+                                    <i class="fa fa-times" ></i>
+                                </span>
+                            </a>
+                            <span class="nav-item">
+                                <a  class="button is-primary button-login">
+                                    <span>LOGIN</span>
+                                </a>
+                            </span>
+                            <p class="nav-item line" style="margin: 1.25em 0 1.25em 1em; border-left: 1px #7a7a7a solid;" >
+                            </p>
+                            <p class="nav-item">
+                                <a class="cart line">
+                                    <span class="icon is-medium">
+                                        <i class="fa fa-shopping-cart" ></i>
+                                    </span>
+                                    <span class="buy-number" style="display: none; color: white; background: red; border-radius: 10px; padding: 2px 8px 2px 8px; margin: 0 0 0 -15px ;">0</span>
+                                </a>
+                            </p>
+
+
+                        </div>
+                    </nav>
+                    <div class="login-form">
+                        <div class="form">
+                            <h1 style="height: 40px;"><span class="icon is-small exit-icon" style="float:right ; position: block"><i class="fa fa-times" style="left:10px; color: #efefef"></i></span></h1>
+                            <ul class="tab-group">
+                                <li class="tab active"><a href="#signup" class="a-login">Sign Up</a></li>
+                                <li class="tab"><a href="#login" class="a-login">Log In</a></li>
+                            </ul>
+                            <div class="tab-content">
+                                <div id="signup">   
+                                    <h1 class="title-text">Sign Up for Free</h1>
+                                    <form action="/" method="post">
+                                        <div class="top-row">
+                                            <div class="field-wrap">
+                                                <label>
+                                                    First Name<span class="req">*</span>
+                                                </label>
+                                                <input  class="input-text" type="text" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Last Name<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="text" required autocomplete="off"/>
+                                            </div>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Set A Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <button type="submit" class="buttonX button-block">Get Started</button>
+                                        <button type="submit" class="exit buttonX button-block">Exit</button>
+                                    </form>
+                                </div>
+                                <div id="login">   
+                                    <h1 class="title-text">Welcome Back!</h1>
+                                    <form action="/" method="post">
+                                        <div class="field-wrap">
+                                            <label>
+                                                Email Address<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="email" required autocomplete="off"/>
+                                        </div>
+                                        <div class="field-wrap">
+                                            <label>
+                                                Password<span class="req">*</span>
+                                            </label>
+                                            <input class="input-text" type="password" required autocomplete="off"/>
+                                        </div>
+                                        <p class="forgot"><a href="#">Forgot Password?</a></p>
+                                        <button class="buttonX button-block"/>Log In</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script src="js/login.js"></script>
+                </div>
+            </div>
+        </header>   
+    <content >
+        <div class="banner columns ">
+            <div class="column is-5 wow bounceInLeft" >
+                <div class="text-banner-about">
+                    <h1>WELCOME TO GSHOP</h1>
+                    <h2>The ultimate entertainment platform.</h2>
+                    <h2>Play, connect, create and more.</h2>
+                    <h2>Sign up Gshop today and start gaming!</h2>
+                    <h3>"You never walk alone.<br>
+                        We will always beside you."</h3>
+                    <a href="#">
+                        <input type="button" class="button-login" id="sign-up" value="Sign Up">
+                    </a>
+                </div>
+            </div>
+            <div class="column is-7 wow bounceInRight">
+                <figure class="image">
+                    <img src="img/about-banner.png">
+                </figure>
+            </div>
+        </div>
+        <div class="page columns">
+            <div class="column"></div>
+            <div class="column is-10">
+                <div class="columns">
+                    <div class="column tab-about wow bounceInLeft">
+                        <h1 class="tab-1-1">Instant Access to Games</h1>
+                        <div class="columns in-tab">
+                            <div class="column">
+                                <p>We have thousands of games from Action to Indie and everything in-between. Enjoy exclusive deals, automatic game updates and other great perks.</p>
+                                <br><a href="shop.html">Browse games</a>
+                            </div>
+                            <div class="column">
+                                <figure class="image">
+                                    <img src="images/1.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column tab-about wow bounceInRight">
+                        <h1 class="tab-1-2">Join the Community</h1>
+                        <div class="columns in-tab">
+                            <div class="column">
+                                <p>Meet new people, join game groups, form clans, chat in-game and more! With over 100 million potential friends (or enemies), the fun never stops.</p>
+                                <p><span style="color: #00cc09; font-size: 1.5em">1,257 </span>member online
+                                    <br><span style="color: #4f93c4; font-size: 1.5em">17,647 </span>views</p>
+                                <br><a href="#">Join the community</a>
+                            </div>
+                            <div class="column">
+                                <figure class="image">
+                                    <img src="images/2.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column tab-about wow bounceInLeft">
+                        <h1 class="tab-2-1">Create and Share Content</h1>
+                        <div class="columns in-tab">
+                            <div class="column">
+                                <p>Gift your friends, trade items, and even create new content for games in the Steam Workshop. Help shape the future of your favorite games.</p>
+                                <br><a href="shop.html">Visit the Workshop</a>
+                            </div>
+                            <div class="column">
+                                <figure class="image">
+                                    <img src="images/3.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column tab-about wow bounceInRight">
+                        <h1 class="tab-2-2">Entertainment Anywhere</h1>
+                        <div class="columns in-tab">
+                            <div class="column">
+                                <p>Whether you’re on a PC, Mac, Linux box, mobile device, or even your television, you can enjoy the benefits of Steam. Take the fun with you.</p>
+                                <br><a href="#">Get Gshop on your PC</a>
+                                <br><a href="#">Get Gshop for Mobile</a>
+                            </div>
+                            <div class="column">
+                                <figure class="image">
+                                    <img src="images/4.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column about-gshop" >
+                    <h1 class="tab-about-team wow bounceInRight">About Gshop.16mb.com</h1>
+                    <h2 class="question wow bounceInRight">Who are we? </h2>
+                    <p class="wow bounceInRight">We are a UK based retailer of <span><a href="shop.html" style="color: #00cc09">games, DVDs, Blu-rays, board games, card games, gadgets, posters, toys and more!</a> </span>Whether you're buying the latest blockbuster for yourself, or a DVD for a friend, we've got something for everyone!
+                        <br>We've been in the business for several years now, and we understand what it takes to make your shopping experience a joy. That's why we do everything we can to make sure you get not only the best prices, but the best service too!
+                        <br>As well as fantastic customer service, which you can reach using our contact form, we also have a thriving <span><a href="http://www.facebook.com/coz1998" style="color: #00cc09"> Facebook community</a></span>. With friendly members to chat with, and active admins to answer your questions, help is never far away!</p>
+                    <h2 class="question wow bounceInRight">What do we offer?</h2>
+                    <p class="wow bounceInRight">
+                        We sell a huge range of products, from games for every platform, to DVDs and Blu-Rays of every genre, and everything in between.
+                        We now stock clothes and accessories too, so not only can you play your best, you can look the part as well!
+                    </p>
+                    <h2 class="question wow bounceInRight">Why buy from us?</h2>
+                    <p class="wow bounceInRight">   
+                        We offer the best savings on the best products with great shipping times to match! Save up to 50% off the retail price of many games and DVDs/Blu-rays, and get exclusive offers on posters, toys and more! All items are shipped from the UK, delivery time is approximately 4-10 days. Remember, we ship worldwide!
+                        <br><span><a href="home.html" style="color: #00cc09">Check out even more reasons to buy from us here!</a></span><br>
+                        Plus, check out our awesome <span><a href="home.html" style="color: #00cc09">testimonials page</a></span>! We have tons of awesome fans who have left feedback about their experiences with us, and you can view all their testimonials here, and you can view the original post they made!
+                    </p>
+                </div>
+            </div>
+            <div class="column"></div>
+        </div>
+
+    </content>
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="columns top-footer">
+            <div class="column tabs is-centered">
+                <ul>
+                    <li><a href="news.html">GSHOP BLOG</a></li>
+                    <li><a href="about.html">OUR TEAM</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="child/contact.html">CONTACT</a></li>
+                    <li><a>PAY</a></li>
+                    <li><a href="child/support.html">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="columns mid-footer">
+            <div class="column ">
+                <div class="column tabs is-centered wow bounceInUp">
+                    <ul>
+                        <li><a><span class="icon is-large"><i class="fa fa-linkedin-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-youtube-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-facebook-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-twitter-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-steam-square"></i></span></a>
+                        </li>
+                        <li><a><span class="icon is-large"><i class="fa fa-google-plus-square"></i></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h1 class="title is-2">You never walk alone.</h1>
+        </div>
+        <div class="columns text-footer is-centered wow bounceInUp">
+
+            <h2 class="subtitle">We will always beside you.</h2>
+        </div>
+        <div class="columns tabs address-footer is-centered">
+            <ul>
+                <li><a><span class="icon is-medium"><i class="fa fa-envelope"></i></span>
+                        <p style="color:#00cc09; font-weight:500">Gshopgaming@gmail.com</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-phone"></i></span>
+                        <p style="color:#dbdbdb ; font-weight:500">(+84) 162 971 9292</p></a></li>
+                <li><a><span class="icon is-medium"><i class="fa fa-building"></i></span>
+                        <p style="color:#dbdbdb; font-weight:500">1 Hoang Dao Thuy, Ha Noi</p></a></li>
+            </ul>
+        </div>
+
+
+        <div class="columns down-footer is-centered">
+            <h1 class="title is-6">Copyright 2017 TeamHCL. All Rights Reserved.</h1>
+        </div>
+    </footer>
+
+</body>
+</html>

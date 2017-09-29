@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 May 2017, 3:53:37 PM
+    Author     : coz
+*/
+content .body-shop .banner {
+  margin-top: 1em; }
+  content .body-shop .banner .column {
+    padding: 0; }
+content .body-shop div .title-game-shop {
+  margin: 0.75em;
+  color: #f4f4f4;
+  font-weight: 500;
+  padding: 1em;
+  border-left: 5px #00cc09 solid; }
+content .body-shop .in-shop {
+  padding: 2em; }
+  content .body-shop .in-shop div {
+    padding: 0.1em; }
+    content .body-shop .in-shop div .latest {
+      font-size: 1.25em;
+      font-weight: 500;
+      color: #f4f4f4;
+      margin-top: 1.75em;
+      vertical-align: bottom;
+      padding: 1.25em;
+      padding-left: 2em;
+      background-color: #4f93c4;
+      font-family: 'Oswald', sans-serif; }
+    content .body-shop .in-shop div .featured {
+      font-size: 1.25em;
+      font-weight: 500;
+      color: #f4f4f4;
+      padding: 1.25em;
+      padding-top: 3em;
+      padding-left: 2em;
+      background-color: #ff8601;
+      font-family: 'Oswald', sans-serif; }
+    content .body-shop .in-shop div .special {
+      font-size: 1.25em;
+      font-weight: 500;
+      color: #f4f4f4;
+      margin-top: 1.75em;
+      padding: 1.25em;
+      padding-left: 2em;
+      background-color: #4f93c4;
+      font-family: 'Oswald', sans-serif; }
+  content .body-shop .in-shop .ingredient {
+    margin: 0.1em;
+    margin-top: 0.35em;
+    background-color: #232323;
+    padding: 0.25em 2em 0.2em 2em; }
+    content .body-shop .in-shop .ingredient .poster-text {
+      padding-left: 1em; }
+      content .body-shop .in-shop .ingredient .poster-text h1 {
+        font-weight: 500;
+        font-size: 18px;
+        color: #efefef;
+        font-family: 'Oswald', sans-serif; }
+      content .body-shop .in-shop .ingredient .poster-text h2 {
+        color: #9b9b9b;
+        font-size: 14px; }
+      content .body-shop .in-shop .ingredient .poster-text h3 {
+        font-size: 15px;
+        color: #12b3cb;
+        font-weight: 600;
+        font-family: 'Russo One', sans-serif; }
+      content .body-shop .in-shop .ingredient .poster-text h4 {
+        font-size: 14px;
+        color: #4f4f4f;
+        font-weight: 400;
+        text-decoration: line-through; }
+      content .body-shop .in-shop .ingredient .poster-text .buy {
+        background-color: #00cc09;
+        padding: 0.5em;
+        color: #f7f7f7;
+        font-size: 16px;
+        margin-top: 0.5em;
+        border: 2px #00cc09 solid;
+        font-family: 'Righteous', cursive; }
+      content .body-shop .in-shop .ingredient .poster-text .buy:hover {
+        border: 2px #00cc09 dashed;
+        background-color: #1c1c1c;
+        color: #00cc09;
+        transition: 0.3s; }
+      content .body-shop .in-shop .ingredient .poster-text #readmore {
+        background-color: #1c1c1c;
+        padding: 0.5em;
+        color: #00cc09;
+        font-size: 16px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        border: 2px #00cc09 solid;
+        font-family: 'Righteous', cursive; }
+      content .body-shop .in-shop .ingredient .poster-text #readmore:hover {
+        border: 2px #00cc09 dashed;
+        transition: 0.3s; }
+    content .body-shop .in-shop .ingredient .poster-image {
+      z-index: 1; }
+content .body-shop .banner-bot {
+  margin: 0.75em; }
+content .body-shop div .title {
+  margin: 0.5em;
+  color: #f4f4f4;
+  font-weight: 500;
+  padding: 1em;
+  border-left: 5px #00cc09 solid; }
+content .body-shop div {
+  padding: 0.75em; }
+  content .body-shop div .toprank {
+    text-align: center;
+    font-weight: 500;
+    color: #f4f4f4;
+    padding: 1.25em;
+    background-color: #ff8601;
+    font-family: 'Oswald', sans-serif; }
+content .body-shop .toprank-game {
+  margin-top: 0;
+  padding-top: 0; }
+  content .body-shop .toprank-game p.game-name {
+    font-family: 'Russo One', sans-serif;
+    margin-top: 1em;
+    color: #12b3cb;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif; }
+  content .body-shop .toprank-game p.into-game {
+    color: #a0a0a0;
+    font-size: 14px; }
+content .body-shop div .mostviewed {
+  text-align: center;
+  font-weight: 500;
+  color: #f4f4f4;
+  padding: 1.25em;
+  background-color: #4f93c4;
+  font-family: 'Oswald', sans-serif; }
+content .body-shop .banner-bot-2 {
+  padding: 0; }
+
+/*# sourceMappingURL=shop-style.css.map */

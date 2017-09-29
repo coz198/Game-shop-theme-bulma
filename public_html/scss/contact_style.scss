@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 May 2017, 8:04:41 AM
+    Author     : coz
+*/
+
+
+.contact{
+    margin-top:50px;
+    .is-3{
+        background: #454f4f;
+        color: #efefef;
+        padding: 2em;
+        font-family: 'Oswald', sans-serif;
+        .social{
+            margin-top : 1.25em;
+            a{
+                i{
+                    font-size: 1em;
+                }
+                color: #efefef;
+                margin: 0.75em;
+            }
+        }
+        input,textarea {
+            background: #394141;
+            padding: 1em;
+            margin: 1em 0 0em 0;
+            width: 100%;
+            color: white;
+            border: none;
+
+            &[type='textarea'] {
+                min-height:75px;
+                vertical-align: text-top;
+            }
+        } 
+        .submit{
+            margin: 1em 0 0em 0;
+            background: #00cc09;
+            padding: 1em 2em 1em 2em;
+            font-size: 1em;
+            border-radius: 0;
+        }
+        .address{
+            color: #7a7a7a;
+            h1{
+                margin: 1em 0 1em 0;
+                font-size: 1em;
+                i{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+    .is-9{
+        padding:0;
+        .image{
+            margin-top: 20px;
+            position: relative;
+            .text{
+                position: absolute;
+                top: 48%;
+                left: 50%;
+                .fa-map-marker{
+                    color: #00cc09;
+                    font-size: 2em;
+                }
+                .add-map{
+                    float: left;
+                    background:rgb(239, 239, 239);
+                    margin-right: 0.5em;
+                    h1{
+                        color:black;
+                        font-size: 1em;
+                        padding: 0.5em 1.5em 0.5em 1.5em;
+                        font-family: 'PT Sans', sans-serif;
+                        font-weight: 700;
+                        text-align: right;
+                    }
+                    hr{
+                        width: 90%;
+                        background-color: #afafaf;
+                        margin: 0;
+                        margin: auto;
+
+                    }
+                }
+            }
+        }
+
+    }
+}

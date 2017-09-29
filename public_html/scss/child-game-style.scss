@@ -1,0 +1,173 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09 May 2017, 10:32:52 PM
+    Author     : coz
+*/
+div.main-content{
+    margin: 2em;
+    .logo{
+        padding-top: 5em;
+        padding-bottom: 3em;
+    }
+    .tab-left{
+        margin: 1em;
+        .feattured{
+            h1{
+                background-color: #a92e0a;
+                padding: 1em;
+                color:#f2f2f2;
+                font-weight: 500;
+            }
+        } 
+        .featured-game{
+            padding: 0;
+            margin-top: 1em;
+            div{
+                h1{
+                    font-size: 15px;
+                    color: #12b3cb;
+                    font-weight: 500;
+                    font-family: 'Russo One', sans-serif;
+                }
+                h2{
+                    color: #f7f7f7;
+                    font-weight: 500;
+                }
+                .buy{
+                    background-color: #00cc09;
+                    padding: 0.5em;
+                    color: #f7f7f7;
+                    font-size: 14px;
+                    margin-top: 1em;
+                    border: 2px #00cc09 solid;
+                    font-family: 'Righteous', cursive;
+                }
+                .buy:hover{
+                    border: 2px #00cc09 dashed;
+                    background-color: #1c1c1c;
+                    color: #00cc09;
+                    transition: 0.3s;
+                }      
+            }
+        }
+        .welcome{
+            h1{
+                background-color: #3db0c1;
+                padding: 1em;
+                color:#f2f2f2;
+                font-weight: 500;
+            }
+        }
+        .welcome-text{
+            margin-top: 1em;
+            padding: 0;
+            .box{
+                background-color: #1c1b1b;
+                padding: 0;
+                p{
+                    color:#dddddd;
+                    strong{
+                        color:#f2f2f2;
+                    }
+                }
+            }
+        }
+    }
+    .tab-right{
+        div{
+            div.tab-image{
+            }
+            div.tab-info{
+                h1{
+                    font-size: 25px;
+                    color: #12b3cb;
+                    font-weight: 600;
+                    font-family: 'Russo One', sans-serif;
+                }
+                h2{
+                    color: #9b9b9b;
+                    font-size: 16px;
+                }
+                .icon{
+                    color:#e8e8e8;
+                }
+                h3{
+                    color: #9b9b9b;
+                    font-size: 14px;    
+                }
+                h4{
+                    color: #9b9b9b;
+                    font-size: 14px; 
+                }
+                h5{
+                    color: #9b9b9b;
+                    font-size: 14px; 
+                }
+                hr{
+                    border: 0;
+                    height: 1px;
+                    background-color:  #636363;
+                }   
+                h6{
+                    font-size: 25px;
+                    color: #a3a1a1;
+                    font-weight: 600;
+                    text-decoration: line-through;
+                }
+                .buy{
+                    background-color: #00cc09;
+                    padding: 0.5em;
+                    color: #f7f7f7;
+                    font-size: 16px;
+                    margin-top: 1em;
+                    border: 2px #00cc09 solid;
+                    font-family: 'Righteous', cursive;
+                }
+                .buy:hover{
+                    border: 2px #00cc09 dashed;
+                    background-color: #1c1c1c;
+                    color: #00cc09;
+                    transition: 0.3s;
+                }        
+            }
+        }
+        .in-game{
+            .vid-in-game{
+                h1{
+                    margin: 1em 0 1em 0;
+                    padding: 1em;
+                    font-size: 25px;
+                    color: #e5e5e5;
+                    font-weight: 600;
+                    border-left: 5px #00cc09 solid;
+                }   
+            }
+            .image-in-game{
+                height: 600px;
+                h1{
+                    margin: 1em 0 1em 0;
+                    padding: 1em;
+                    font-size: 25px;
+                    color: #e5e5e5;
+                    font-weight: 600;
+                    border-left: 5px #00cc09 solid;
+                }
+            }
+            @media only screen and (max-width: 999px){
+                .image-in-game{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}
+@media only screen and (max-width:768px){
+    div.main-content{
+        margin: 1em;
+    }
+}

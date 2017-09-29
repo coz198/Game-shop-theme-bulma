@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html style="background-color:#232323;">
+    <head>
+        <title>Webcome to Gshop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <link rel="stylesheet" href="css/bulma.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animate.css">
+
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/login.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,600' rel='stylesheet' type='text/css'>
+
+
+
+        <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="icon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="icon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="icon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="icon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="icon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+        <link rel="manifest" href="icon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">        
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+
+
+
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <script type="text/javascript" src="js/bulma.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+
+        <script src="js/owl.carousel.min.js"></script>
+
+        <script>
+            new WOW().init();
+        </script>
+        <style>
+            @media screen and (max-width: 768px) {
+                #menu-toggle:checked + .nav-menu {
+                    opacity: 1;
+                    display: block;
+                }
+            }
+        </style>
+        <script src="js/js01.js"></script>
+
+    </head>
+    <body>
+        <div id="body">
+            <header>
+                <div class="columns header" >
+                    <div class="column tab-menu">
+                        <nav class="nav menu-top fade">
+                            <div class="nav-left menu-list-child">
+                                <a href="index.html" class="nav-item wow bounceIn"><img src="images/logo.png">
+                                </a>
+                            </div>
+                            <a class="hideShowMenu">
+                                <label for="menu-toggle" class="nav-toggle">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </label>
+                            </a>
+                            <input type="checkbox" id="menu-toggle" class="is-hidden"/>
+                            <div class="nav-right nav-menu">
+                                <a href="index.html" class="nav-item menu-list-child"  style="color:#00cc09; border-bottom: 5px #00cc09 solid;" >
+                                    Home
+                                </a>
+                                <a href="news.html" class="nav-item menu-list-child" > 
+                                    News
+                                </a>
+                                <a href="shop.html" class="nav-item menu-list-child" >
+                                    Shop
+                                </a>
+                                <a href="playstation.html" class="nav-item menu-list-child">
+                                    PlayStation
+                                </a>
+                                <a href="pc.html" class="nav-item menu-list-child">
+                                    PC
+                                </a>
+                                <a href="xbox.html" class="nav-item menu-list-child" >
+                                    Xbox
+                                </a>
+                                <a href="mobi.html" class="nav-item menu-list-child" >
+                                    Mobile
+                                </a>
+                                <a href="about.html" class="nav-item menu-list-child"  >
+                                    About
+                                </a>
+                                <a class="nav-item"  id="search">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-search"></i>
+                                    </span>
+                                </a>
+                                <input class="nav-item" id="input-text" type="text" name="field1" placeholder="Search Tab" style="display: none;"/>
+
+
+                                <a class="nav-item"  id="times" style="display: none;">
+                                    <span class="icon is-small">
+                                        <i class="fa fa-times" ></i>
+                                    </span>
+                                </a>
+                                <span class="nav-item">
+                                    <a  class="button is-primary button-login">
+                                        <span>LOGIN</span>
+                                    </a>
+                                </span>
+                                <p class="nav-item line"  style="margin: 1.25em 0 1.25em 1em; border-left: 1px #7a7a7a solid;" >
+                                </p>
+                                <p class="nav-item">    
+                                    <a class="cart line">
+                                        <span class="icon is-medium">
+                                            <i class="fa fa-shopping-cart" ></i>
+                                        </span>
+                                        <span class="buy-number" style="display: none; color: white; background: red; border-radius: 10px; padding: 2px 8px 2px 8px; margin: 0 0 0 -15px ;">0</span>
+                                    </a>
+                                </p>
+                            </div>
+                        </nav>
+                        <div class="login-form">
+                            <div class="form">
+                                <h1 style="height: 40px;"><span class="icon is-small exit-icon" style="float:right ; position: block"><i class="fa fa-times" style="left:10px; color: #efefef"></i></span></h1>
+                                <ul class="tab-group">
+                                    <li class="tab active"><a href="#signup" class="a-login">Sign Up</a></li>
+                                    <li class="tab"><a href="#login" class="a-login">Log In</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div id="signup">   
+                                        <h1 class="title-text">Sign Up for Free</h1>
+                                        <form action="/" method="post">
+                                            <div class="top-row">
+                                                <div class="field-wrap">
+                                                    <label>
+                                                        First Name<span class="req">*</span>
+                                                    </label>
+                                                    <input  class="input-text" type="text" required autocomplete="off" />
+                                                </div>
+                                                <div class="field-wrap">
+                                                    <label>
+                                                        Last Name<span class="req">*</span>
+                                                    </label>
+                                                    <input class="input-text" type="text" required autocomplete="off"/>
+                                                </div>
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Email Address<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="email" required autocomplete="off"/>
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Set A Password<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="password" required autocomplete="off"/>
+                                            </div>
+                                            <button type="submit" class="buttonX button-block">Get Started</button>
+                                            <button type="submit" class="exit buttonX button-block">Exit</button>
+                                        </form>
+                                    </div>
+                                    <div id="login">   
+                                        <h1 class="title-text">Welcome Back!</h1>
+                                        <form action="/" method="post">
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Email Address<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="email" required autocomplete="off"/>
+                                            </div>
+                                            <div class="field-wrap">
+                                                <label>
+                                                    Password<span class="req">*</span>
+                                                </label>
+                                                <input class="input-text" type="password" required autocomplete="off"/>
+                                            </div>
+                                            <p class="forgot"><a href="#">Forgot Password?</a></p>
+                                            <button class="buttonX button-block"/>Log In</button>
+                                        </form  >
+                                    </div>
+                                </div><!-- tab-content -->
+                            </div>
+                        </div>
+                        <script src="js/login.js"></script>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column video-background">
+                        <div class="column is-4 gshop wow bounceInLeft" data-wow-duratdataion="3s">
+                            <h1>WELCOME TO</h1>
+                            <h1 style="border-left: 5px #00cc09 solid;border-bottom: 5px #00cc09 solid; padding-left: 1em">GSHOP</h1>
+                            <h2>Wherever you go, i will be there.</h2>
+                        </div>
+                        <video width="100%" muted autoplay loop>
+                            <source src="video/video.mp4" type="video/mp4">
+                        </video>
+
+                    </div>
+                </div>
+            </header>
+            <content>
+                <div class="columns news-title wow bounceInRight"><h1 class="title">Game Center</h1></div>
+                <div class="owl-carousel wow bounceInUp">
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn1.jpg"></a>
+                        </figure>
+                        <p class="game-name">Legend Of ZELDA</p>
+                        <p class="into-game">PC, PS4</p>
+                        <p class="price-game">$13.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn9.jpg"></a>
+                        </figure>
+                        <p class="game-name">Gird II</p>
+                        <p class="into-game">PS4</p>
+                        <p class="price-game">$16.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn3.jpg"></a>
+                        </figure>
+                        <p class="game-name">Ratchet</p>
+                        <p class="into-game">PC</p>
+                        <p class="price-game">$21.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn4.jpg"></a>
+                        </figure>
+                        <p class="game-name">The Witcher 2</p>
+                        <p class="into-game">Mobile</p>
+                        <p class="price-game">$34.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn5.jpg"></a>
+                        </figure>
+                        <p class="game-name">Halo</p>
+                        <p class="into-game">Xbox</p>
+                        <p class="price-game">$12.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn6.jpg"></a>
+                        </figure>
+                        <p class="game-name">Shadow</p>
+                        <p class="into-game">PS4, XBOX</p>
+                        <p class="price-game">$17.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn7.jpg"></a>
+                        </figure>
+                        <p class="game-name">Warplance</p>
+                        <p class="into-game">PC, XBOX</p>
+                        <p class="price-game">$14.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn8.jpg"></a>
+                        </figure>
+                        <p class="game-name">Limbo</p>
+                        <p class="into-game">PS4</p>
+                        <p class="price-game">$25.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn9.jpg"></a>
+                        </figure>
+                        <p class="game-name">Gird II</p>
+                        <p class="into-game">PC, PS4</p>
+                        <p class="price-game">$55.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn10.jpg"></a>
+                        </figure>
+                        <p class="game-name">No Man's Sky</p>
+                        <p class="into-game">PC, XBOX</p>
+                        <p class="price-game">$51.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn11.jpg"></a>
+                        </figure>
+                        <p class="game-name">Ghost Recon</p>
+                        <p class="into-game">PC, PS4</p>
+                        <p class="price-game">$16.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn12.jpg"></a>
+                        </figure>
+                        <p class="game-name">Pokemon Go</p>
+                        <p class="into-game">Mobile</p>
+                        <p class="price-game">$31.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                    <div class="item">
+                        <figure class="image">
+                            <a href="child/template-game-child.html"><img src="img/mn13.jpg"></a>
+                        </figure>
+                        <p class="game-name">Grears Of War</p>
+                        <p class="into-game">PC</p>
+                        <p class="price-game">$11.99</p>
+                        <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                        <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                    </div>
+                </div>
+                <script>
+            $('.owl-carousel').owlCarousel({
+                autoplay: true,
+                autoplayTimeout: 5000,
+                nav: true,
+                navText: [
+                    "<i class='fa fa-angle-left'></i>",
+                    "<i class='fa fa-angle-right'></i>"
+                ],
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    768: {
+                        items: 3,
+                        nav: true
+                    },
+                    1192: {
+                        items: 6,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            })
+                </script>
+                <div class="column slide-game">
+                    <div class="columns news-title wow bounceInRight"><h1 class="title">News</h1></div>
+                    <div class="columns news-product">
+                        <div class="column new-tab wow bounceInLeft" >
+                            <figure class="image">
+                                <div class="text-info-game ">
+                                    <a href="child/template-news-child.html"><h2>Dota 2: New Juggernaut Arcana Style</h2></a>
+                                    <p><br>Tohday the Juggernaut receives a new ‘Origins’ style for his Bladeform Legacy Arcana. Score ten kills with Omnislash ... <span><a href="child/template-news-child.html">read+</a></span></p>
+                                </div>
+                                <img src="img/n1.jpg">
+                            </figure>
+                        </div>
+                        <div class="column new-tab wow bounceInDown" >
+                            <figure class="image">
+                                <div class="text-info-game">
+                                    <a href="child/template-news-child.html"><h2>LOL: Rakan and Xayah</h2></a>
+                                    <p><br>It’s time to party like it’s 2010, because League of Legends is getting not one but two new champions in one release... <span><a href="child/template-news-child.html">read+</a></span></p>
+                                </div>
+                                <img src="img/n2.jpg">
+                            </figure>
+                        </div>
+                        <div class="column new-tab wow bounceInRight" >
+                            <figure class="image">
+                                <div class="text-info-game">
+                                    <a href="child/template-news-child.html"><h2>LOL: Patch 7.9 Notes</h2></a>
+                                    <p><br>The midseason train is leaving the station, so hop onboard and we’ll take a look at the cargo we’re carrying. ... <span><a href="child/template-news-child.html">read+</a></span></p>
+                                </div>
+                                <img src="img/n3.jpg">
+                            </figure>
+                        </div>
+                    </div> 
+                    <div class="columns news-product">
+                        <div class="column new-tab wow bounceInLeft " >
+                            <figure class="image">
+                                <div class="text-info-game">
+                                    <a href="child/template-news-child.html"> <h2>The 12 Best Games on the iPhone </h2></a>
+                                    <p><br>You’ve got yourself an iPhone and you want to play some games on it. You might not want to just plunge into the App Store... <span><a href="child/template-news-child.html">read+</a></span></p>
+                                </div>
+                                <img src="img/n4.jpg">
+                            </figure>
+                        </div>
+                        <div class="column new-tab wow bounceInUp " >
+                            <figure class="image">
+                                <div class="text-info-game">
+                                    <a href="child/template-news-child.html"><h2>Need For Speed : New Update</h2></a>
+                                    <p><br>Manual Transmission, new cars, more garage space and Drag Racing. All things you've been asking for and all of which will be going into the next update, due March 3rd.... <span><a href="child/template-news-child.html">read+</a></span></p>
+                                </div>
+                                <img src="img/n5.jpg">
+                            </figure>
+                        </div>
+                        <div class="column new-tab wow bounceInRight" > 
+                            <figure class="image">
+                                <div class="text-info-game">
+                                    <a href="child/template-news-child.html"><h2>OVERWATCH: PTR Now Available</h2></a>
+                                    <p><br>Tohday the Juggernaut receives a new ‘Origins’ style for his Bladeform Legacy Arcana. Score ten kills with Omnislash to unlock this second form... <span><a href="child/template-news-child.html">read+</a></span></p>
+                                </div>
+                                <img src="img/n6.jpg">
+                            </figure>
+                        </div>
+                    </div>             
+                    <div class="column more wow bounceInUp">
+                        <a href="news.html"><h2 class="title is-5">More+</h2></a>
+                    </div>
+                    <div class="columns flatform-title wow bounceInRight"><h1 class="title">Platform</h1></div>
+                    <div class="columns flatform">
+                        <div class="column flatform-product image wow bounceInUp" >
+                            <div class="columns column product-title">
+                                <div class="column is-three-quarters product-title-text"><p>PlayStation 4+</p></div>
+                                <div class="column product-title-button"><a href="shop.html"><input type="button" id="shopall" value="Shop All" style="margin-top: 0;"/></a></div>
+                            </div>
+                            <img src="images/ps4.png">
+                            <p class="product-name">Sony PS4 Plus</p>
+                            <p class="product-price">$266.99</p>
+                            <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                            <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>    
+                        </div>
+                        <div class="column flatform-product image wow bounceInUp" >
+                            <div class="columns column product-title">
+                                <div class="column is-three-quarters product-title-text"><p>Xbox 360 Platforms</p></div>
+                                <div class="column product-title-button"><a href="shop.html"><input type="button" id="shopall" value="Shop All" style="margin-top: 0;"/></a></div>
+                            </div>
+                            <img src="images/xbox.png">
+                            <p class="product-name">Sony DualShock 3</p>
+                            <p class="product-price">$139.99</p>
+                            <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                            <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                        </div>
+                        <div class="column flatform-product image wow bounceInUp" >
+                            <div class="columns column product-title">
+                                <div class="column is-three-quarters product-title-text"><p>Wii Platforms</p></div>
+                                <div class="column product-title-button"><a href="shop.html"><input type="button" id="shopall" value="Shop All" style="margin-top: 0;"/></a></div>
+                            </div>
+                            <img src="images/volang.png">
+                            <p class="product-name">Samsung Gear VR</p>
+                            <p class="product-price">#214.99</p>
+                            <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy"/></a>
+                            <input class="add-to-cart" type="button" id="readmore" value="Add To Cart"/>
+                        </div>
+                    </div>
+                    <div class="columns coming-soon-title wow bounceInRight"><h1 class="title">COMING SOON</h1></div>
+                    <div class="columns coming-soon ">
+                        <div class="column columns tab-1 wow bounceInLeft"> 
+                            <div class="column com-img">
+                                <figure class="image">
+                                    <img src="img/COM.jpg">
+                                </figure>
+                            </div>
+                            <div class="column com-text">
+                                <h1>NEED FOR SPEED E3 OFFICE</h1>
+                                <h2>PC, PS4</h2>
+                                <h3>$139.99</h3>
+                                <h4>Ready to own the streets? Get behind the wheel of iconic cars and floor it through Ventura Bay, a sprawling urban playground... <span><a href="#">read+.</a></span></h4>
+                                <a href="child/template-game-child.html"><input type="button" id="buynow" value="Buy Now"/></a>
+                            </div>
+                        </div>
+                        <div class="column tab-2 wow bounceInRight"> 
+                            <figure class="image">
+                                <img src="img/cm.png" id="pic">
+                            </figure>
+                        </div>
+                    </div> 
+                    <div class="columns wow bounceInUp" style="margin-top: 20px;">
+                        <video height="100%" width="100%" controls >
+                            <source src="video/trailer.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="column pr">
+                    <div class="column">
+                        <div class="columns elm-tab-r">
+                            <div class="column pr-title wow bounceInLeft">
+                                <h1 class="title">Be the First to Play</h1>
+                                <br/>
+                                <h2 class="subtitle">Order and pre-order the biggest hits and innovative indies—no lines, no shortages, no waiting for mail—and play them on day one using any PS4™ and PS3™ systems. You can even remotely set your games to automatically download to your PlayStation® system so they’re ready when you get home.</h2>
+                                <a href="shop.html" class="button is-success is-medium shop-now">SHOP NOW</a>
+                            </div>
+                            <div class="column pr-image wow bounceInRight">
+                                <figure class="image">
+                                    <img src="img/1.tab.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="columns elm-tab-l">
+                            <div class="column pr-image wow bounceInLeft">
+                                <figure class="image">
+                                    <img src="img/2.tab.png">
+                                </figure>
+                            </div>
+                            <div class="column pr-title wow bounceInRight">
+                                <h1 class="title">Experience More Together™</h1>
+                                <br/>
+                                <h2 class="subtitle">The ultimate membership service that will take your gaming experience to the next level. As a member, you’ll get new games monthly and a diverse range of immersive online multiplayer experiences for the PS4™ system. One membership to PlayStation®Plus extends to your PS4™, PS3™ and PS Vita systems. </h2>
+                                <a href="shop.html" class="button is-success is-medium shop-now">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="columns elm-tab-r">
+                            <div class="column pr-title wow bounceInLeft">
+                                <h1 class="title">Wherever You Go</h1>
+                                <br/>
+                                <h2 class="subtitle">PlayStation®Store is open for business on your PS4™, PS3™, and PS Vita systems, tablet, laptop, and the smartphone in your pocket. Access it from anywhere.  Discover the games and movies you want, and remotely download them to your platform of choice at the touch of a button. It’s that easy.</h2>
+                                <a href="shop.html" class="button is-success is-medium shop-now">SHOP NOW</a>
+                            </div>
+                            <div class="column pr-image wow bounceInRight">
+                                <figure class="image ">
+                                    <img src="img/4.tab.png">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="columns elm-tab-l">
+                            <div class="column pr-image wow bounceInLeft">
+                                <figure class="image">
+                                    <img src="img/3.tab.png">
+                                </figure>
+                            </div>
+                            <div class="column pr-title wow bounceInRight">
+                                <h1 class="title">Your Show is About to Begin</h1>
+                                <br/>
+                                <h2 class="subtitle">PlayStation Store puts the movies and shows you want on your screen, streaming in HD, whenever you want them. Call up an action-packed rollercoaster, a classic from Hollywood’s golden age, or the episode you missed last night. You’ll find something to fit your mood.</h2>
+                                <br/>
+                                <a href="shop.html" class="button is-success is-medium shop-now">SHOP NOW</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </content>
+            <footer>
+                <div class="columns top-footer">
+                    <div class="column tabs is-centered">
+                        <ul>
+                            <li><a href="news.html">GSHOP BLOG</a></li>
+                            <li><a href="about.html">OUR TEAM</a></li>
+                            <li><a href="about.html">ABOUT</a></li>
+                            <li><a href="child/contact.html">CONTACT</a></li>
+                            <li><a>PAY</a></li>
+                            <li><a href="child/support.html">FAQs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="columns mid-footer">
+                    <div class="column ">
+                        <div class="column tabs is-centered wow bounceInUp">
+                            <ul>
+                                <li><a><span class="icon is-large"><i class="fa fa-linkedin-square"></i></span></a>
+                                </li>
+                                <li><a><span class="icon is-large"><i class="fa fa-youtube-square"></i></span></a>
+                                </li>
+                                <li><a><span class="icon is-large"><i class="fa fa-facebook-square"></i></span></a>
+                                </li>
+                                <li><a><span class="icon is-large"><i class="fa fa-twitter-square"></i></span></a>
+                                </li>
+                                <li><a><span class="icon is-large"><i class="fa fa-steam-square"></i></span></a>
+                                </li>
+                                <li><a><span class="icon is-large"><i class="fa fa-google-plus-square"></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns text-footer is-centered wow bounceInUp">
+
+                    <h1 class="title is-2">You never walk alone.</h1>
+                </div>
+                <div class="columns text-footer is-centered wow bounceInUp">
+
+                    <h2 class="subtitle">We will always beside you.</h2>
+                </div>
+                <div class="columns tabs address-footer is-centered">
+                    <ul>
+                        <li><a><span class="icon is-medium"><i class="fa fa-envelope"></i></span>
+                                <p style="color:#00cc09; font-weight:500">Gshopgaming@gmail.com</p></a></li>
+                        <li><a><span class="icon is-medium"><i class="fa fa-phone"></i></span>
+                                <p style="color:#dbdbdb ; font-weight:500">(+84) 162 971 9292</p></a></li>
+                        <li><a><span class="icon is-medium"><i class="fa fa-building"></i></span>
+                                <p style="color:#dbdbdb; font-weight:500">1 Hoang Dao Thuy, Ha Noi</p></a></li>
+                    </ul>
+                </div>
+
+
+                <div class="columns down-footer is-centered">
+                    <h1 class="title is-6">Copyright 2017 TeamHCL. All Rights Reserved.</h1>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,191 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 May 2017, 3:53:37 PM
+    Author     : coz
+*/
+content{
+    .body-shop{
+        .banner{
+            margin-top:1em;
+            .column{
+                padding: 0;
+            }
+        }
+        div{
+            .title-game-shop {
+                margin: 0.75em;
+                color: #f4f4f4;
+                font-weight: 500;
+                padding: 1em;
+                border-left: 5px #00cc09 solid; 
+            }
+        }
+        .in-shop{
+            padding:2em;
+            div{
+                padding:0.1em;
+                .latest{
+                    font-size: 1.25em;
+
+                    font-weight: 500;
+                    color:  #f4f4f4;
+                    margin-top: 1.75em;
+                    vertical-align: bottom;
+                    padding: 1.25em;
+                    padding-left: 2em;
+                    background-color: #4f93c4;
+                    font-family: 'Oswald', sans-serif;
+                }
+                .featured{
+                    font-size: 1.25em;
+                    font-weight: 500;
+                    color:  #f4f4f4;
+                    padding: 1.25em;
+                    padding-top: 3em;
+                    padding-left: 2em;
+                    background-color: #ff8601;
+                    font-family: 'Oswald', sans-serif;
+                }
+                .special{
+                    font-size: 1.25em;
+                    font-weight: 500;
+                    color:  #f4f4f4;    
+                    margin-top: 1.75em;
+                    padding: 1.25em;
+                    padding-left: 2em;  
+                    background-color: #4f93c4;
+                    font-family: 'Oswald', sans-serif;
+                }
+            }
+            .ingredient{
+                margin: 0.1em;   
+                margin-top: 0.35em;
+                background-color: #232323;
+                padding: 0.25em 2em 0.2em 2em;
+                .poster-text{
+                    padding-left:1em;
+                    h1{
+                        font-weight: 500;
+                        font-size: 18px;
+                        color: #efefef;
+                        font-family: 'Oswald', sans-serif;
+                    }
+                    h2{
+                        color: #9b9b9b;
+                        font-size: 14px;
+                    }
+                    h3{
+                        font-size: 15px;
+                        color: #12b3cb;
+                        font-weight: 600;
+                        font-family: 'Russo One', sans-serif;
+                    }
+                    h4{
+                        font-size: 14px;
+                        color: #4f4f4f;
+                        font-weight: 400;
+                        text-decoration: line-through;
+                    }
+                    .buy{
+                        background-color: #00cc09;
+                        padding: 0.5em;
+                        color: #f7f7f7;
+                        font-size: 16px;
+                        margin-top: 0.5em;
+                        border: 2px #00cc09 solid;
+                        font-family: 'Righteous', cursive;
+                    }
+                    .buy:hover{
+                        border: 2px #00cc09 dashed;
+                        background-color: #1c1c1c;
+                        color: #00cc09;
+                        transition: 0.3s;
+                    }
+                    #readmore{
+                        background-color: #1c1c1c;
+                        padding: 0.5em;
+                        color: #00cc09;
+                        font-size: 16px;
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                        border: 2px #00cc09 solid;
+                        font-family: 'Righteous', cursive;
+                    }
+                    #readmore:hover{
+                        border: 2px #00cc09 dashed;
+                        transition: 0.3s;
+                    }
+                }
+
+                .poster-image{
+                    z-index: 1;
+
+                }
+            }
+        }
+
+        .banner-bot{
+            margin: 0.75em;
+
+        }
+
+        div .title{
+            margin: 0.5em;
+            color: #f4f4f4;
+            font-weight: 500;
+            padding: 1em;
+            border-left: 5px #00cc09 solid; 
+        }
+
+        div {
+            padding: 0.75em;
+            .toprank{
+                text-align: center;
+                font-weight: 500;
+                color:  #f4f4f4;
+                padding: 1.25em;
+                background-color: #ff8601;
+                font-family: 'Oswald', sans-serif;
+            }
+        }
+        .toprank-game{
+            margin-top: 0;
+            padding-top : 0;    
+            p.game-name{
+                font-family: 'Russo One', sans-serif;
+                margin-top: 1em;
+                color: #12b3cb;
+                font-size: 16px;
+                font-weight: 500;
+                font-family: 'Oswald', sans-serif;
+            }
+            p.into-game{
+                color:#a0a0a0;
+                font-size: 14px;
+            }
+            .image
+            {
+
+            }
+        }
+
+        div{
+            .mostviewed{
+                text-align: center;
+                font-weight: 500;
+                color:  #f4f4f4;
+                padding: 1.25em;
+                background-color: #4f93c4;
+                font-family: 'Oswald', sans-serif;
+            }
+        }
+
+        .banner-bot-2{
+            padding:0;
+        }
+    }
+}

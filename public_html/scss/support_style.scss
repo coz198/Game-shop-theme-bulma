@@ -1,0 +1,129 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 May 2017, 1:05:43 PM
+    Author     : coz
+*/
+
+.body-faqs{
+    margin-bottom: 3em;
+    padding:0;
+    .faqs-image{
+        .img-banner{
+            .text-banner{
+                width: 100%;
+                margin-left: auto;
+                margin-right: auto;
+                position: absolute;
+                z-index: 1;
+                top: 35%;
+                h1{
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 600;
+                    color: #efefef;
+                    font-family: 'Jockey One', sans-serif;
+                }
+                h2{
+                    text-align: center;
+                    font-size: 20px;
+                    color: #efefef;
+                    font-weight: thin;
+                    font-family: 'Poiret One', cursive;
+                }
+                .search-form{
+                    text-align:center;
+                    .search-input{
+                        height: 50px;
+                        font-size: 16px;
+                        padding: 1em;
+                        width: 65%;
+                        color: #858c91;
+                        margin-right: 10px;
+                        margin-bottom: 0;
+                        border: none;
+                    }
+                    .search-button{
+                        height: 50px;
+                        font-size: 16px;
+                        font-weight: bold;
+                        padding: 0 2em 0 2em;
+                        color: #efefef;
+                        border: none;
+                        background: #00cc09;
+                    }
+                }
+
+                @media only screen and (max-width: 768px){
+                    h1{
+                        font-size: 20px;
+                    }
+                    h2{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+
+    .question-tab{
+        padding: 4em;
+        .question-tab-child{
+            padding: 1.25em;
+            h1{
+                font-size: 1.5em;
+                font-weight: 500;
+                color: #f4f4f4;
+                font-family: 'Oswald', sans-serif;
+                padding: 1em;
+                margin-right: 2em;
+                border-bottom:  5px #00cc09 solid;
+            }
+            .questions{
+                padding:1em;
+                .question{
+                    padding-bottom: 0.5em; 
+                    details{
+                        summary{
+                            font-weight: 500;
+                            color: #e2e2e2;
+                        }
+                        p{
+                            font-size: 1em;
+                            color: #afafaf;
+                            padding-left: 1em;
+                        }
+                    }
+                    p{
+                        font-size: 0.75em;
+                    }
+                }
+            }
+            .support{
+                background: #00cc09;
+                padding: 1em;
+                h1{
+                    padding: 0;
+                    font-size: 1.5em;
+                    font-weight: 500;
+                    color: #f4f4f4;
+                    font-family: 'Oswald', sans-serif;
+                }
+                p{
+                    padding-top: 1em;
+                    color: #f4f4f4;
+                }
+                a{
+                    color: #f4f4f4;
+                    text-decoration: underline;
+                }
+            }
+            .image{
+                padding: 0 6em 1em 6em ;   
+            }
+        }
+    }
+}
